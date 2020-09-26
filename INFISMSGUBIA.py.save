@@ -1,0 +1,274 @@
+import imaplib
+import email
+from email.header import decode_header
+from email.header import make_header
+import gammu
+import time 
+import smtplib 
+from email.MIMEMultipart import MIMEMultipart
+from email.MIMEText import MIMEText
+from email.MIMEBase import MIMEBase
+from email import encoders
+
+#obtine el remitente del from
+def get_remitente(dato):
+	a = dato.find('<')
+	b = dato.find('>')
+	c = dato[a+1:b]
+	return c
+
+#Envia correo con los reportes del sistema
+def solicitud_reportes(direccionreportes, mensajereportes,archivo):
+	fromaddr = "smsgubia@gmail.com"
+	toaddr = direccionreportes
+ 
+	msg = MIMEMultipart()
+ 
+	msg['From'] = fromaddr
+	msg['To'] = toaddr
+	msg['Subject'] = archivo
+ 
+	body = mensajereportes
+ 
+	msg.attach(MIMEText(body, 'plain'))
+ 
+	filename = archivo
+	agregado = '/home(pi/sms/' + archivo
+	attachment = open(archivo, "rb")
+ 
+	part = MIMEBase('application', 'octet-stream')
+	part.set_payload((attachment).read())
+	encoders.encode_base64(part)
+	part.add_header('Content-Disposition', "attachment; filename= %s" % filename)
+ 
+	msg.attach(part)
+ 
+	server = smtplib.SMTP('smtp.gmail.com', 587)
+	server.starttls()
+	server.login(fromaddr, "gubiasms")
+	text = msg.as_string()
+	server.sendmail(fromaddr, toaddr, text)
+	server.quit()
+
+
+
+#Envia correo de eror si el dongle no funciona
+def mensaje_dongle(direccion):
+	fromaddr = "smsgubia@gmail.com"
+	toaddr = direccion
+	msg = MIMEMultipart()
+	msg['From'] = fromaddr
+	msg['To'] = toaddr
+	msg['Subject'] = "ERROR DEL DONGLE 3G"
+ 
+	body = "DONGLE 3G CON PROBLEMAS FAVOR DE REVISAR"
+	msg.attach(MIMEText(body, 'plain'))
+ 
+	server = smtplib.SMTP('smtp.gmail.com', 587)
+	server.starttls()
+	server.login(fromaddr, "gubiasms")
+	text = msg.as_string()
+	server.sendmail(fromaddr, toaddr, text)
+	server.quit()
+
+#Verifica que el sms funcione con la variable smssetup
+def sms_setup():
+	
+	try:
+		# Create state machine object
+		sm = gammu.StateMachine()
+		# Read configuration of gammu
+		sm.ReadConfig()
+		# Conect to phone
+		sm.Init()
+		netinfo = sm.GetNetworkInfo()
+		smssetup = 1
+		
+	except gammu.GSMError:	
+		smssetup = 0
+		return smssetup
+	
+	return smssetup
+
+#envia sms
+def sms_send(texto, numero):
+	# Create state machine object
+	sm = gammu.StateMachine()
+	# Read configuration of gammu
+	sm.ReadConfig()
+	# Conect to phone
+	sm.Init()
+	netinfo = sm.GetNetworkInfo()
+	
+	txtouni = texto.decode('UTF-8')
+	# Message
+	message = {
+		'Text': textouni, 
+		'SMSC': {'Location': 1},
+		'Number': numero,
+	}	
+
+	# Send Message
+
+	try:
+		# Send SMS if all is OK
+		sm.SendSMS(message)
+		enviado = 1
+
+	except gammu.GSMError:
+    		# Show error if message not sent
+   		enviado = 0
+
+	return enviado	
+
+#obtiene para obtener el tema del email
+def get_subject(email):
+	h = decode_header(email.get('subject'))
+	return unicode(make_header(h)).encode('utf-8')
+
+#obtine el remitente del email
+def get_from(email):
+	j = decode_header(email.get('from'))
+	return unicode(make_header(j)).encode('utf-8')
+
+#obtiene el mensaje
+def get_body(message_body):
+    msg = email.message_from_string(message_body)
+    text = ""
+    if msg.is_multipart():
+        html = None
+        for part in msg.get_payload():
+ 
+            #print "%s, %s" % (part.get_content_type(), part.get_content_charset())
+ 
+            if part.get_content_charset() is None:
+                # We cannot know the character set, so return decoded "something"
+                text = part.get_payload(decode=True)
+                continue
+ 
+            charset = part.get_content_charset()
+ 
+            if part.get_content_type() == 'text/plain':
+                text = unicode(part.get_payload(decode=True), str(charset), "ignore").encode('utf8', 'replace')
+ 
+            if part.get_content_type() == 'text/html':
+                html = unicode(part.get_payload(decode=True), str(charset), "ignore").encode('utf8', 'replace')
+ 
+        if text is not None:
+            return text.strip()
+        else:
+            return html.strip()
+    else:
+        text = unicode(msg.get_payload(decode=True), msg.get_content_charset(), 'ignore').encode('utf8', 'replace')
+        return text.strip()
+
+
+while True:
+	#valida que funcione el dongle 
+	dongleok = sms_setup()
+	#valida coneccion al correo (internet)
+	try:
+		m = imaplib.IMAP4_SSL("imap.gmail.com")
+		m.login("smsgubia@gmail.com", "gubiasms")
+		m.select("inbox")
+		internet = 1
+	except:
+		internet = 0
+
+	#solo funciona en caso de que el dongle y el correo esten correctos
+	try: 
+if (dongleok == 1 and internet == 1) :
+
+		fecha = time.strftime('%d %b %y')
+		horainicio = time.strftime('%H:%M:%S')
+		print horainicio
+		print fecha
+
+	
+
+		tema = ''
+
+		#selecciona los emails no vistos
+		result, mails_data = m.search(None, "(UNSEEN)")
+		mails_ids = mails_data[0]
+		mails_id_list = mails_ids.split() 
+
+		#controla el numero total de mensajes
+		cuenta = 0
+
+		#controla el numero de sms por enviar
+		mensajes = 0
+
+		#controla los mensajes enviados
+		enviados = 0
+
+		for i in reversed(mails_id_list):
+			cuenta = cuenta + 1
+			result, mail_data = m.fetch(i, "(RFC822)")
+			raw_email = mail_data[0][1]
+			this_email = email.message_from_string(raw_email)
+			de = get_from(this_email)
+			tema = get_subject(this_email)
+
+			#Valida el dominio de los correos		
+			if ('escamilla.cristian@gmail.com' in de) or ('@gubia.mx' in de):
+		
+				#Valida que el subject este compuesto de digitos
+				if tema.isdigit():
+					mensajes = mensajes + 1
+					body = get_body(raw_email)
+					#si el mensaje se envia la variable resultado =1 sino 0
+					resultado = sms_send(body, tema) 	
+					#obtiene hora de envpio de mensaje
+					horamensaje = time.strftime('%H:%M:%S')	
+					#en caso de que el mensaje se envio agrega 1 al contador de enviados
+					if resultado == 1:
+						enviados = enviados +1
+						#m.store(i, '-FLAGS', r'(\Seen)')
+						print de
+						print tema
+						print body
+					else:
+						m.sotre(i, '-FLAGS', r'(\Seen)')
+					#escribe al final el archivo detalleMensajes
+					detalle = open('detalleMensajes.csv','a')
+					remitente = get_remitente(de)
+					detalle.write(fecha + ',' + remitente + ',' + tema + ',' + body + ',' + horamensaje + ',' + str(resultado) +  "\n")			
+					detalle.close()		
+				elif tema == "REPORTES":
+					direccionreportes = get_remitente(de)
+					mensajereportes = "Envio de reportes " + time.strftime('%H:%M:%S')
+					archivo = "registroTotal.csv"
+					solicitud_reportes(direccionreportes, mensajereportes, archivo)
+					archivo = "detalleMensajes.csv"
+					solicitud_reportes(direccionreportes, mensajereportes, archivo)	
+
+		#obtiene el momento del final de proceso	
+		horafinal = time.strftime('%H:%M:%S')
+
+
+		print cuenta
+		print mensajes
+		print horafinal
+		print enviados
+
+		#escribe al final del archivo registroTotal solo cuando hay mensajes posibles
+		if mensajes != 0:
+			resumen = open('registroTotal.csv','a')
+			resumen.write(fecha+',' + horainicio + "," + str(cuenta) + ',' + str(mensajes)  +',' + str(enviados)+ ',' + horafinal + "\n")
+			resumen.close()
+			m.logout()
+
+
+	elif (internet == 0 and dongleok == 1):
+		sms_send('ERROR DE INTERNET CHECAR POR FAVOR','5554374058')
+		print "internet no funciona"
+
+	elif (internet == 1 and dongleok == 0):
+		mensaje_dongle('escamilla.cristian@gmail.com')
+		print "Dongle no funciona"
+	
+	print "Dongle %s", dongleok
+	print "internet %s", internet
+
+	
