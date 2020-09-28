@@ -102,6 +102,7 @@ try:
         flow = client.flow_from_clientsecrets('credentials.json', SCOPES)
         creds = tools.run_flow(flow, store)
     service = build('people', 'v1', http=creds.authorize(Http()))
+    print("people",service)
     contactos = Contactos()
     listadoTelefonos =  contactos.listarContactos()
 #except: 
