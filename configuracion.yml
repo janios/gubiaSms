@@ -1,3 +1,19 @@
 #Archivo de Configuracion para SMSGUBIA
 
-logger.archivo: /home/pi/gubiaSms/logg.txt
+logger:
+  archivo: /home/pi/gubiaSms/log.log
+gubiaBoot:
+  token: 883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ
+  chatId: 326212885
+  chatIdGrupo: -429562103
+baseDatos:
+  host: sql5007.site4now.net
+  username: DB_9AE2E9_bdGubia_admin
+  password: gubia123...
+  database: DB_9AE2E9_bdGubia
+  tablaEntrada: tbSmsSalidaTest
+  numeroRegistros: 5
+peopleApi:
+  token: token.json
+  credentials: credentials.json
+

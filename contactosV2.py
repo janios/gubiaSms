@@ -6,10 +6,33 @@ from googleapiclient.discovery import build
 from httplib2 import Http
 from oauth2client import file, client, tools
 
-service = ""
-listadoTelefonos = ""
-
 class Contactos():
+
+    def __init__(self, config, loggerExterno):
+        try:
+            global logger
+            global service
+            global listadoTelefonos
+
+            logger = loggerExterno
+            token = config['token']
+            credentials = config['credentials']
+            
+            SCOPES = 'https://www.googleapis.com/auth/contacts'
+
+            store = file.Storage(token)
+            creds = store.get()
+            if not creds or creds.invalid:
+                flow = client.flow_from_clientsecrets(credentials, SCOPES)
+                creds = tools.run_flow(flow, store)
+            service = build('people', 'v1', http=creds.authorize(Http()))
+            listadoTelefonos = self.listarContactos()
+            
+            logger.info("People Google iniciado")
+        except Exception as inst:
+            logger.error("Error al crear la instancia ",inst)
+
+
 
     #Elimina codigo unicode
     def force_text(self, text):
@@ -18,6 +41,7 @@ class Contactos():
         return str(text)
 
     def eliminarContacto(self, telefono):
+        global logger
         try:
             global service
             global listadoTelefonos
@@ -34,14 +58,12 @@ class Contactos():
     def agregarContacto(self, telefono, nombre=None):
         try:
             global service
-            global listadoTelefonos        
+            global logger
+            
+            logger.info(service)
             if (nombre == None):
                 nombre = telefono
-            
-            if not (telefono in listadoTelefonos):
-                print("Se agregara Contacto {}".format(telefono))
-                
-                service.people().createContact(body={
+            service.people().createContact(body={
                         "names": [
                             {
                                 "givenName": nombre
@@ -54,13 +76,11 @@ class Contactos():
                         ]
                         
                     }).execute()
-                print("Contacto Creado")
-                return "Contacto Creado"
-            print("Contacto Existente")   
-            return "Contacto Existente"
+            logger.info("Contacto Agregado {}".format(telefono))
+            return True
         except Exception as inst:
-            print("Error al agregar contactos",inst)
-
+            logger.error("Error al agregar contactos ",inst)
+            return False
 
     def agregarContactos(self, listaContactos):
         for conta in listaContactos:
@@ -89,24 +109,9 @@ class Contactos():
                     name = names[0].get('displayName')
                     telefono = self.force_text(telefono[0].get('value'))
                     recurso = self.force_text(recurso)
-                    listadoTelefonos[telefono] = recurso
+                    listadoTelefonos[telefono] = name
             return listadoTelefonos
         except Exception as inswt:
             print("Error al listar contactos",inswt)
 
-# If modifying these scopes, delete the file token.json.
-try:
-    SCOPES = 'https://www.googleapis.com/auth/contacts'
 
-    store = file.Storage('token.json')
-    creds = store.get()
-    if not creds or creds.invalid:
-        flow = client.flow_from_clientsecrets('credentials.json', SCOPES)
-        creds = tools.run_flow(flow, store)
-    service = build('people', 'v1', http=creds.authorize(Http()))
-    print("people",service)
-    contactos = Contactos()
-    listadoTelefonos =  contactos.listarContactos()
-#except: 
-except Exception as inst:
-    print("Error al crear la instancia",inst)

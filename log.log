@@ -1,0 +1,120 @@
+INFO - 2020-11-21 04:42:05.881388 - Prueba
+INFO - 2020-11-20 22:44:49.956615 - Prueba
+INFO - 2020-12-08 20:31:46.175419 - Prueba
+INFO - 2020-12-08 20:35:23.064827 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Hola Mundo Grupo desde YAML refactorizado actual&chat_id=-429562103
+INFO - 2020-12-08 20:35:23.768001 - Prueba
+INFO - 2020-12-08 20:38:02.739978 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Hola Mundo Grupo desde YAML refactorizado actual 2020-12-08 20:38:02.739395&chat_id=-429562103
+INFO - 2020-12-08 20:38:03.434007 - Prueba
+INFO - 2020-12-08 21:04:05.101589 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Hola Mundo Grupo desde YAML refactorizado actual 2020-12-08 21:04:05.101470&chat_id=-429562103
+INFO - 2020-12-08 21:04:05.817189 - Prueba
+INFO - 2020-12-08 21:04:06.521258 - Base conectada
+ERROR - 2020-12-08 21:04:06.522324 - Error en la base de datos
+INFO - 2020-12-08 21:07:16.322404 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Hola Mundo Grupo desde YAML refactorizado actual 2020-12-08 21:07:16.322266&chat_id=-429562103
+INFO - 2020-12-08 21:07:17.038417 - Prueba
+INFO - 2020-12-08 21:07:17.645246 - Base conectada
+ERROR - 2020-12-08 21:07:17.646015 - Error en la base de datos
+ERROR - 2020-12-08 21:07:17.646553 - Traceback (most recent call last):
+  File "/home/pi/gubiaSms/DAOmicro.py", line 45, in __init__
+    consulta = "Select TOP("+numeroRegistros+") * from " + tablaEntrada
+TypeError: cannot concatenate 'str' and 'int' objects
+
+INFO - 2020-12-08 21:07:50.657843 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Hola Mundo Grupo desde YAML refactorizado actual 2020-12-08 21:07:50.657713&chat_id=-429562103
+INFO - 2020-12-08 21:07:51.342821 - Prueba
+INFO - 2020-12-08 21:07:51.935942 - Base conectada
+ERROR - 2020-12-08 21:07:51.937378 - Error en la base de datos
+ERROR - 2020-12-08 21:07:51.938049 - Traceback (most recent call last):
+  File "/home/pi/gubiaSms/DAOmicro.py", line 45, in __init__
+    consulta = "Select TOP("+numeroRegistros+") * from " + tablaEntrada
+TypeError: cannot concatenate 'str' and 'int' objects
+
+INFO - 2020-12-08 21:11:11.335486 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Hola Mundo Grupo desde YAML refactorizado actual 2020-12-08 21:11:11.335292&chat_id=-429562103
+INFO - 2020-12-08 21:11:12.043364 - Prueba
+INFO - 2020-12-08 21:11:12.633723 - Base conectada
+ERROR - 2020-12-08 21:11:12.634831 - Error en la base de datos
+ERROR - 2020-12-08 21:11:12.635436 - Traceback (most recent call last):
+  File "/home/pi/gubiaSms/DAO.py", line 45, in __init__
+    consulta = "Select TOP("+numeroRegistros+") * from " + tablaEntrada
+TypeError: cannot concatenate 'str' and 'int' objects
+
+INFO - 2020-12-08 21:13:50.776971 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Hola Mundo Grupo desde YAML refactorizado actual 2020-12-08 21:13:50.776848&chat_id=-429562103
+INFO - 2020-12-08 21:13:51.476656 - Prueba
+INFO - 2020-12-08 21:15:08.955816 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Hola Mundo Grupo desde YAML refactorizado actual 2020-12-08 21:15:08.955699&chat_id=-429562103
+INFO - 2020-12-08 21:15:09.656513 - Prueba
+INFO - 2020-12-08 21:16:44.379956 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Hola Mundo Grupo desde YAML refactorizado actual 2020-12-08 21:16:44.379797&chat_id=-429562103
+INFO - 2020-12-08 21:16:45.085099 - Prueba
+INFO - 2020-12-08 21:17:02.965147 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Hola Mundo Grupo desde YAML refactorizado actual 2020-12-08 21:17:02.965027&chat_id=-429562103
+INFO - 2020-12-08 21:17:03.674338 - Prueba
+INFO - 2020-12-08 21:19:04.543184 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Hola Mundo Grupo desde YAML refactorizado actual 2020-12-08 21:19:04.543066&chat_id=-429562103
+INFO - 2020-12-08 21:19:05.246187 - Prueba
+INFO - 2020-12-08 21:19:05.839243 - Base conectada
+ERROR - 2020-12-08 21:19:05.840906 - Error en la base de datos
+ERROR - 2020-12-08 21:19:05.841729 - Traceback (most recent call last):
+  File "/home/pi/gubiaSms/DAO.py", line 48, in consulta
+    consulta = "Select TOP("+numeroRegistros+") * from " + tablaEntrada
+TypeError: cannot concatenate 'str' and 'int' objects
+
+INFO - 2020-12-08 21:20:40.368334 - Prueba
+INFO - 2020-12-08 21:20:40.964290 - Base conectada
+INFO - 2020-12-08 21:20:40.964825 - Select TOP(5) * from tbSmsSalidaTest
+ERROR - 2020-12-08 21:20:41.041762 - Error en la base de datos
+ERROR - 2020-12-08 21:20:41.042338 - Traceback (most recent call last):
+  File "/home/pi/gubiaSms/DAO.py", line 57, in consulta
+    logger.logInfo("Registros obtenidos ->" + registros.lenght)
+AttributeError: 'list' object has no attribute 'lenght'
+
+INFO - 2020-12-08 21:22:14.426562 - Prueba
+INFO - 2020-12-08 21:22:15.025757 - Base conectada
+INFO - 2020-12-08 21:22:15.026391 - Select TOP(5) * from tbSmsSalidaTest
+ERROR - 2020-12-08 21:22:15.084621 - Error en la base de datos
+ERROR - 2020-12-08 21:22:15.085065 - Traceback (most recent call last):
+  File "/home/pi/gubiaSms/DAO.py", line 57, in consulta
+    logger.logInfo("Registros obtenidos ->" + len(lista))
+TypeError: cannot concatenate 'str' and 'int' objects
+
+INFO - 2020-12-08 21:22:30.835758 - Prueba
+INFO - 2020-12-08 21:22:31.430506 - Base conectada
+INFO - 2020-12-08 21:22:31.431159 - Select TOP(5) * from tbSmsSalidaTest
+INFO - 2020-12-08 21:22:31.491146 - Registros obtenidos ->7
+INFO - 2020-12-08 21:23:43.339553 - Prueba
+INFO - 2020-12-08 21:23:43.944896 - Base conectada
+INFO - 2020-12-08 21:23:43.945422 - Select * from tbSmsSalidaTest
+INFO - 2020-12-08 21:23:44.059754 - Registros obtenidos ->7
+INFO - 2020-12-08 21:27:15.051901 - Prueba
+INFO - 2020-12-08 21:27:15.659622 - Base conectada
+INFO - 2020-12-08 21:27:15.660155 - Select TOP(5) * from tbSmsSalidaTestorder by id
+ERROR - 2020-12-08 21:27:15.718202 - Error en la base de datos
+ERROR - 2020-12-08 21:27:15.718712 - Traceback (most recent call last):
+  File "/home/pi/gubiaSms/DAO.py", line 50, in consulta
+    cursor.execute(consulta)
+  File "src/pymssql.pyx", line 468, in pymssql.Cursor.execute
+OperationalError: (156, "Incorrect syntax near the keyword 'by'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+
+INFO - 2020-12-08 21:27:31.100015 - Prueba
+INFO - 2020-12-08 21:27:31.694822 - Base conectada
+INFO - 2020-12-08 21:27:31.695397 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-08 21:27:31.755121 - Registros obtenidos ->7
+INFO - 2020-12-08 21:29:05.981450 - Prueba
+INFO - 2020-12-08 21:29:06.577876 - Base conectada
+INFO - 2020-12-08 21:29:06.578399 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-08 21:29:06.638189 - Registros obtenidos ->7
+INFO - 2020-12-09 21:06:27.901118 - Se agregara Contacto 5558
+INFO - 2020-12-09 21:29:26.991189 - Esta chingadera jalo
+INFO - 2020-12-09 21:29:26.991767 - <googleapiclient.discovery.Resource object at 0x74e1fd90>
+INFO - 2020-12-09 21:31:28.816146 - Esta chingadera jalo
+INFO - 2020-12-09 21:31:28.816809 - <googleapiclient.discovery.Resource object at 0x74e0df30>
+INFO - 2020-12-09 21:32:42.890923 - Esta chingadera jalo
+INFO - 2020-12-09 21:32:42.891589 - <googleapiclient.discovery.Resource object at 0x74ea5dd0>
+INFO - 2020-12-09 21:34:36.383161 - Esta chingadera jalo
+INFO - 2020-12-09 21:34:36.393172 - <googleapiclient.discovery.Resource object at 0x74df7f10>
+INFO - 2020-12-09 21:36:15.674206 - Esta chingadera jalo
+INFO - 2020-12-09 21:36:15.688127 - <googleapiclient.discovery.Resource object at 0x74dfdc50>
+INFO - 2020-12-09 21:38:04.134693 - Esta chingadera jalo
+INFO - 2020-12-09 21:38:04.135407 - <googleapiclient.discovery.Resource object at 0x74f7ed90>
+INFO - 2020-12-09 21:42:38.174652 - Esta chingadera jalo
+INFO - 2020-12-09 21:42:38.181337 - <googleapiclient.discovery.Resource object at 0x74e91db0>
+INFO - 2020-12-10 20:14:16.446062 - People Google iniciado
+INFO - 2020-12-10 20:14:16.449924 - <googleapiclient.discovery.Resource object at 0x74f31e30>
+INFO - 2020-12-10 20:14:17.605751 - Contacto Agregado 5554374090
+INFO - 2020-12-10 20:21:51.380802 - People Google iniciado
+INFO - 2020-12-10 20:21:51.381393 - <googleapiclient.discovery.Resource object at 0x74f50eb0>
+INFO - 2020-12-10 20:21:52.391983 - Contacto Agregado 5554374010
