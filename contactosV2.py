@@ -40,20 +40,16 @@ class Contactos():
             return text.encode("utf-8")
         return str(text)
 
-    def eliminarContacto(self, telefono):
-        global logger
+    def eliminarContacto(self, id):
         try:
             global service
-            global listadoTelefonos
+            global logger
+
+            service.people().deleteContact(resourceName = id).execute()
+            logger.info("Contacto {} eliminado ".format(telefono))
             
-            if telefono in listadoTelefonos:
-                id = listadoTelefonos[telefono]
-                service.people().deleteContact(resourceName = id).execute()
-                print("Contacto {} eliminado ".format(telefono))
-            else:
-                print("El Contacto {} no existe en los contactos".format(telefono))
-        except:
-            print("Error al eliminar contactos")
+        except Exception as inst:
+            logger.error("Error al eliminar el contacto con id {} error {}".format(id, inst))
 
     def agregarContacto(self, telefono, nombre=None):
         try:
@@ -79,7 +75,7 @@ class Contactos():
             logger.info("Contacto Agregado {}".format(telefono))
             return True
         except Exception as inst:
-            logger.error("Error al agregar contactos ",inst)
+            logger.error("Error al agregar contactos {}".format(inst))
             return False
 
     def agregarContactos(self, listaContactos):
@@ -90,6 +86,7 @@ class Contactos():
     def listarContactos(self):
         try:
             global service
+            global logger
             results = service.people().connections().list(
                 resourceName='people/me',
                 #pageSize=10,
@@ -100,7 +97,6 @@ class Contactos():
             idContacto = ""
 
             for person in connections:
-                #print(person)
                 names = person.get('names', [])
                 telefono = person.get('phoneNumbers', [])
                 recurso = person.get('resourceName', [])
@@ -109,9 +105,10 @@ class Contactos():
                     name = names[0].get('displayName')
                     telefono = self.force_text(telefono[0].get('value'))
                     recurso = self.force_text(recurso)
-                    listadoTelefonos[telefono] = name
+                    listadoTelefonos[recurso] = name + ":" + telefono
+            logger.info("Se listaron {} telefonos".format(len(listadoTelefonos)))
             return listadoTelefonos
-        except Exception as inswt:
-            print("Error al listar contactos",inswt)
+        except Exception as inst:
+            logger.error("Error al listar contactos {}".format(inst))
 
 

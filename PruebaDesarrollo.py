@@ -20,7 +20,14 @@ telegram = TelegramNotificaciones(config['gubiaBoot'], logger)
 contactos = Contactos(config['peopleApi'], logger)
 resultado = contactos.agregarContacto("5554374010", "Pedrito")
 
-#resultado = contactos.listarContactos()
-print resultado
+resultados = contactos.listarContactos()
+print resultados
+
+for resultado in resultados:
+    print resultado
+    contactos.eliminarContacto(resultado)
+
+resultados = contactos.listarContactos()
+print resultados
 	
 

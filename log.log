@@ -118,3 +118,28 @@ INFO - 2020-12-10 20:14:17.605751 - Contacto Agregado 5554374090
 INFO - 2020-12-10 20:21:51.380802 - People Google iniciado
 INFO - 2020-12-10 20:21:51.381393 - <googleapiclient.discovery.Resource object at 0x74f50eb0>
 INFO - 2020-12-10 20:21:52.391983 - Contacto Agregado 5554374010
+INFO - 2020-12-10 20:23:31.644652 - People Google iniciado
+INFO - 2020-12-10 20:26:17.404784 - People Google iniciado
+INFO - 2020-12-10 20:27:48.414165 - People Google iniciado
+ERROR - 2020-12-10 20:32:04.172197 - Error al listar contactos global name 'log' is not defined
+INFO - 2020-12-10 20:32:04.172834 - People Google iniciado
+ERROR - 2020-12-10 20:32:04.368467 - Error al listar contactos global name 'log' is not defined
+INFO - 2020-12-10 20:33:34.483629 - Se listaron 2 telefonos
+INFO - 2020-12-10 20:33:34.484354 - People Google iniciado
+INFO - 2020-12-10 20:33:34.690762 - Se listaron 2 telefonos
+INFO - 2020-12-10 20:35:32.954506 - Se listaron 2 telefonos
+INFO - 2020-12-10 20:35:32.955197 - People Google iniciado
+INFO - 2020-12-10 20:35:33.134073 - Se listaron 2 telefonos
+INFO - 2020-12-10 20:40:25.456267 - Se listaron 2 telefonos
+INFO - 2020-12-10 20:40:25.456811 - People Google iniciado
+INFO - 2020-12-10 20:40:25.641977 - Se listaron 2 telefonos
+ERROR - 2020-12-10 20:40:26.004422 - Error al eliminar el contacto con id
+ERROR - 2020-12-10 20:40:26.339300 - Error al eliminar el contacto con id
+INFO - 2020-12-10 20:40:26.646078 - Se listaron 0 telefonos
+INFO - 2020-12-10 20:43:17.970714 - Se listaron 0 telefonos
+INFO - 2020-12-10 20:43:17.971249 - People Google iniciado
+INFO - 2020-12-10 20:43:17.971647 - <googleapiclient.discovery.Resource object at 0x74de3e90>
+INFO - 2020-12-10 20:43:18.992157 - Contacto Agregado 5554374010
+INFO - 2020-12-10 20:43:19.348028 - Se listaron 1 telefonos
+ERROR - 2020-12-10 20:43:19.691837 - Error al eliminar el contacto con id people/c5463431181439640458 error global name 'telefono' is not defined
+INFO - 2020-12-10 20:43:19.892876 - Se listaron 0 telefonos
