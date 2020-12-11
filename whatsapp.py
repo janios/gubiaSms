@@ -12,7 +12,7 @@ uid = "527971416893"
 class Whatsapp:
 
 	def escribirincrementar(self, modo = 0):
-		incrementa = 0;
+		incrementa = 0
 		if modo == 0:
 			archivo = open('whats.log','r+')
 			incrementa = int(archivo.read()) +1
@@ -48,7 +48,7 @@ class Whatsapp:
 
 			print(texto2)
 
-			claveUnica = "mens-"+ str(self	.escribirincrementar())
+			claveUnica = "mens-"+ str(self.escribirincrementar())
 			token = str(self.escribirincrementar(modo = 1))
 			#print(token)
 			data = urllib.urlencode({"token":token,"uid":uid,"to":numero,"custom_uid":claveUnica,"text":texto2}) 

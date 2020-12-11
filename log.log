@@ -143,3 +143,66 @@ INFO - 2020-12-10 20:43:18.992157 - Contacto Agregado 5554374010
 INFO - 2020-12-10 20:43:19.348028 - Se listaron 1 telefonos
 ERROR - 2020-12-10 20:43:19.691837 - Error al eliminar el contacto con id people/c5463431181439640458 error global name 'telefono' is not defined
 INFO - 2020-12-10 20:43:19.892876 - Se listaron 0 telefonos
+INFO - 2020-12-10 21:40:58.697652 - Se listaron 0 telefonos
+INFO - 2020-12-10 21:40:58.698179 - People Google iniciado
+INFO - 2020-12-10 21:40:58.698541 - <googleapiclient.discovery.Resource object at 0x74eb51b0>
+INFO - 2020-12-10 21:40:59.706576 - Contacto Agregado 5554374058
+INFO - 2020-12-10 21:41:30.020983 - Se listaron 1 telefonos
+INFO - 2020-12-10 21:41:30.021558 - People Google iniciado
+INFO - 2020-12-10 21:41:30.021976 - <googleapiclient.discovery.Resource object at 0x74e261b0>
+INFO - 2020-12-10 21:41:30.913878 - Contacto Agregado 5554374058
+INFO - 2020-12-10 21:42:10.973151 - Se listaron 2 telefonos
+INFO - 2020-12-10 21:42:10.973690 - People Google iniciado
+INFO - 2020-12-10 21:42:10.974038 - <googleapiclient.discovery.Resource object at 0x74e942d0>
+INFO - 2020-12-10 21:42:11.872322 - Contacto Agregado 5554374058
+INFO - 2020-12-10 21:42:51.476191 - Se listaron 3 telefonos
+INFO - 2020-12-10 21:42:51.476891 - People Google iniciado
+INFO - 2020-12-10 21:42:51.477368 - <googleapiclient.discovery.Resource object at 0x74df3f70>
+INFO - 2020-12-10 21:42:52.431054 - Contacto Agregado 5554374058
+INFO - 2020-12-10 21:42:52.431570 - WhatsApp iniciado
+INFO - 2020-12-10 21:44:07.316274 - Se listaron 4 telefonos
+INFO - 2020-12-10 21:44:07.316812 - People Google iniciado
+INFO - 2020-12-10 21:44:07.317166 - <googleapiclient.discovery.Resource object at 0x74e160b0>
+INFO - 2020-12-10 21:44:08.133681 - Contacto Agregado 5554374058
+INFO - 2020-12-10 21:44:08.134395 - WhatsApp iniciado
+INFO - 2020-12-10 21:44:08.135272 - Resultado del envio 
+INFO - 2020-12-10 21:48:40.228101 - Se listaron 5 telefonos
+INFO - 2020-12-10 21:48:40.228711 - People Google iniciado
+INFO - 2020-12-10 21:48:40.229195 - <googleapiclient.discovery.Resource object at 0x74e30270>
+INFO - 2020-12-10 21:48:41.278285 - Contacto Agregado 5554374058
+INFO - 2020-12-10 21:48:41.279008 - WhatsApp iniciado
+INFO - 2020-12-10 21:48:41.279765 - Resultado del envio 
+INFO - 2020-12-10 21:50:36.836136 - Se listaron 6 telefonos
+INFO - 2020-12-10 21:50:36.836711 - People Google iniciado
+INFO - 2020-12-10 21:50:36.837106 - <googleapiclient.discovery.Resource object at 0x74e70fb0>
+INFO - 2020-12-10 21:50:37.695534 - Contacto Agregado 5554374058
+INFO - 2020-12-10 21:50:37.696049 - WhatsApp iniciado
+INFO - 2020-12-10 21:50:37.697035 - Resultado del envio 
+INFO - 2020-12-10 21:51:00.026610 - Se listaron 7 telefonos
+INFO - 2020-12-10 21:51:00.027189 - People Google iniciado
+INFO - 2020-12-10 21:51:00.027570 - <googleapiclient.discovery.Resource object at 0x74e36f30>
+INFO - 2020-12-10 21:51:01.033044 - Contacto Agregado 5554374058
+INFO - 2020-12-10 21:51:01.033639 - WhatsApp iniciado
+INFO - 2020-12-10 21:51:01.034841 - Resultado del envio 
+INFO - 2020-12-10 22:00:03.269394 - Se listaron 8 telefonos
+INFO - 2020-12-10 22:00:03.280619 - People Google iniciado
+INFO - 2020-12-10 22:00:03.281169 - <googleapiclient.discovery.Resource object at 0x74e790d0>
+INFO - 2020-12-10 22:00:04.168073 - Contacto Agregado 5554374058
+INFO - 2020-12-10 22:00:04.168798 - WhatsApp iniciado
+INFO - 2020-12-10 22:00:04.170518 - Resultado del envio 
+INFO - 2020-12-10 22:00:54.056147 - Se listaron 9 telefonos
+INFO - 2020-12-10 22:00:54.059434 - People Google iniciado
+INFO - 2020-12-10 22:00:54.060097 - <googleapiclient.discovery.Resource object at 0x74e29090>
+INFO - 2020-12-10 22:00:54.801808 - Contacto Agregado 5554374058
+INFO - 2020-12-10 22:00:54.802304 - WhatsApp iniciado
+INFO - 2020-12-10 22:00:54.803534 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-10 22:00:54.805119 - Mensaje de WhatsApp # 2
+INFO - 2020-12-10 22:00:55.673033 - Resultado del envio 
+INFO - 2020-12-10 22:01:54.258644 - Se listaron 10 telefonos
+INFO - 2020-12-10 22:01:54.260196 - People Google iniciado
+INFO - 2020-12-10 22:01:54.260857 - <googleapiclient.discovery.Resource object at 0x74e6c210>
+INFO - 2020-12-10 22:01:55.093141 - Contacto Agregado 5554374058
+INFO - 2020-12-10 22:02:16.409342 - Se listaron 11 telefonos
+INFO - 2020-12-10 22:02:16.410025 - People Google iniciado
+INFO - 2020-12-10 22:02:16.410456 - <googleapiclient.discovery.Resource object at 0x74e490b0>
+INFO - 2020-12-10 22:02:17.232491 - Contacto Agregado 5554374058

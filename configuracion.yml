@@ -16,4 +16,9 @@ baseDatos:
 peopleApi:
   token: token.json
   credentials: credentials.json
+whatsApp:
+  token: c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50
+  archivoContador: whats.cont
+  diferenciador: prue-
+  uid: "527971416893"
 
