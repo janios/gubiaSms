@@ -30,10 +30,8 @@ class DAO():
         database = config['database']
         tablaEntrada = config['tablaEntrada']
         numeroRegistros = config['numeroRegistros']
-        print("LOCO LOCO")
-        print(host)
-
-    def consulta(self):
+       
+    def obtenerMensajes(self):
         global logger
         global host
         global username
