@@ -1,0 +1,3 @@
+#Archivo de Configuracion para SMSGUBIA
+
+logger.archivo: /home/pi/gubiaSms/logg.txt
