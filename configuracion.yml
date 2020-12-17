@@ -12,6 +12,8 @@ baseDatos:
   password: gubia123...
   database: DB_9AE2E9_bdGubia
   tablaEntrada: tbSmsSalidaTest
+  whatsAppSalida: SmsWhatsapp 
+  tablaNoEnviados: SmsMensajesNoEnviados 
   numeroRegistros: 5
 peopleApi:
   token: token.json
