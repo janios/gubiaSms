@@ -92,21 +92,54 @@ class DAO():
         global tablaEntrada
         return self.eliminar(tablaEntrada, id)
     
-    def agregarWhatsCorrecto(self, mensaje):
-        global tablaWhatsAppCorrecto
+    def agregar(self, query, tabla):
         global logger
         global conn
 
         try:
             cursor = conn.cursor()
-            query = "INSERT INTO {} (telefono, mensaje, fecha, Sucursal) values ('{}', '{}', '{}', {})".format(tablaWhatsAppCorrecto, mensaje[2], mensaje[3],mensaje[1],mensaje[5])
-            logger.info(query)
             cursor.execute(query)
             conn.commit()
-            logger.info("registro agregado a tabla {}".format(tablaWhatsAppCorrecto))
+            logger.info("registro agregado a tabla {}".format(tabla))
             return "Registro Agregado"
         except:
             error = traceback.format_exc()
-            logger.logError("Error {} en la eliminacion de la tabla {} ".format(error, tablaWhatsAppCorrecto))
-            return "ERROR"   
+            logger.logError("Error {} agregando archivo de la tabla {} ".format(error, tabla))
+            return "ERROR"  
+
+    def actualizar(self, query, tabla):
+        global logger
+        global conn
+
+        try:
+            cursor = conn.cursor()
+            cursor.execute(query)
+            conn.commit()
+            logger.info("registro actualizado en la tabla {}".format(tabla))
+            return "Registro Actualizado"
+        except:
+            error = traceback.format_exc()
+            logger.logError("Error {} actulizando archivo de la tabla {} ".format(error, tabla))
+            return "ERROR"  
+
+    def agregarWhatsCorrecto(self, mensaje):
+        global tablaWhatsAppCorrecto
+        global logger
+        
+        query = "INSERT INTO {} (telefono, mensaje, fecha, Sucursal) values ('{}', '{}', '{}', {})".format(tablaWhatsAppCorrecto, mensaje[2], mensaje[3],mensaje[1],mensaje[5]) 
+        logger.info(query)
+        return self.agregar(query, tablaWhatsAppCorrecto)
+
+    def agregarMensajeNoEnviado(self, mensaje):
+        global tablaNoEnviados
+        global logger
+
+        query = "INSERT INTO {} (telefono, mensaje, mensajeSms, fecha, Sucursal, intento) values ('{}', '{}', '{}', '{}', {}, 1)".format(tablaNoEnviados, mensaje[2], mensaje[3],  mensaje[4],mensaje[1],mensaje[5]) 
+        logger.info(query)
+        return self.agregar(query, tablaNoEnviados)
+
+    def actualizarIntento():
+        
+        
+
 

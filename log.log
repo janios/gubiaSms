@@ -266,3 +266,43 @@ INFO - 2020-12-16 21:52:16.355623 - Select TOP(5) * from tbSmsSalidaTest order b
 INFO - 2020-12-16 21:52:16.422085 - Registros obtenidos ->6
 INFO - 2020-12-16 21:52:16.422800 - INSERT INTO SmsWhatsapp (telefono, mensaje, fecha, Sucursal) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1)
 INFO - 2020-12-16 21:52:16.635995 - registro agregado a tabla SmsWhatsapp
+INFO - 2020-12-17 15:00:45.641822 - Base de Datos conectada
+INFO - 2020-12-17 15:00:45.642456 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-17 15:00:45.702447 - Registros obtenidos ->6
+INFO - 2020-12-17 15:00:45.703090 - INSERT INTO SmsWhatsapp (telefono, mensaje, fecha, Sucursal) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1)
+INFO - 2020-12-17 15:00:45.888557 - registro agregado a tabla SmsWhatsapp
+INFO - 2020-12-17 15:00:45.889621 - INSERT INTO SmsMensajesNoEnviados (telefono, mensaje, mensajeSms, fecha, Sucursal, intento) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', 'Saludos LORENA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1, 1)
+INFO - 2020-12-17 15:00:46.071143 - registro agregado a tabla SmsWhatsapp
+INFO - 2020-12-17 15:03:09.780594 - Base de Datos conectada
+INFO - 2020-12-17 15:03:09.781288 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-17 15:03:09.844737 - Registros obtenidos ->6
+INFO - 2020-12-17 15:03:09.845716 - INSERT INTO SmsWhatsapp (telefono, mensaje, fecha, Sucursal) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1)
+INFO - 2020-12-17 15:03:10.017034 - registro agregado a tabla SmsWhatsapp
+INFO - 2020-12-17 15:03:10.017689 - INSERT INTO SmsMensajesNoEnviados (telefono, mensaje, mensajeSms, fecha, Sucursal, intento) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', 'Saludos LORENA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1, 1)
+INFO - 2020-12-17 15:03:10.210263 - registro agregado a tabla SmsWhatsapp
+INFO - 2020-12-17 15:03:54.113835 - Base de Datos conectada
+INFO - 2020-12-17 15:03:54.114745 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-17 15:03:54.172880 - Registros obtenidos ->6
+INFO - 2020-12-17 15:03:54.173663 - INSERT INTO SmsWhatsapp (telefono, mensaje, fecha, Sucursal) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1)
+INFO - 2020-12-17 15:03:54.350932 - registro agregado a tabla SmsWhatsapp
+INFO - 2020-12-17 15:03:54.351668 - INSERT INTO SmsMensajesNoEnviados (telefono, mensaje, mensajeSms, fecha, Sucursal, intento) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', 'Saludos LORENA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1, 1)
+INFO - 2020-12-17 15:03:54.528719 - registro agregado a tabla SmsMensajesNoEnviados
+INFO - 2020-12-17 15:04:31.941238 - Base de Datos conectada
+INFO - 2020-12-17 15:04:31.942073 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-17 15:04:32.000433 - Registros obtenidos ->6
+INFO - 2020-12-17 15:04:32.001505 - INSERT INTO SmsWhatsapp (telefono, mensaje, fecha, Sucursal) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1)
+INFO - 2020-12-17 15:04:32.170386 - registro agregado a tabla SmsWhatsapp
+INFO - 2020-12-17 15:04:32.171045 -  t INSERT INTO SmsMensajesNoEnviados (telefono, mensaje, mensajeSms, fecha, Sucursal, intento) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', 'Saludos LORENA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1, 1)
+ERROR - 2020-12-17 15:04:32.284006 - Error Traceback (most recent call last):
+  File "/home/pi/gubiaSms/DAO.py", line 101, in agregar
+    cursor.execute(query)
+  File "src/pymssql.pyx", line 465, in pymssql.Cursor.execute
+ProgrammingError: (2812, "Could not find stored procedure 't'.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+ agregando archivo de la tabla SmsMensajesNoEnviados 
+INFO - 2020-12-17 15:04:59.023578 - Base de Datos conectada
+INFO - 2020-12-17 15:04:59.024473 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-17 15:04:59.125614 - Registros obtenidos ->6
+INFO - 2020-12-17 15:04:59.126594 - INSERT INTO SmsWhatsapp (telefono, mensaje, fecha, Sucursal) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1)
+INFO - 2020-12-17 15:04:59.309969 - registro agregado a tabla SmsWhatsapp
+INFO - 2020-12-17 15:04:59.310893 - INSERT INTO SmsMensajesNoEnviados (telefono, mensaje, mensajeSms, fecha, Sucursal, intento) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', 'Saludos LORENA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1, 1)
+INFO - 2020-12-17 15:04:59.493744 - registro agregado a tabla SmsMensajesNoEnviados

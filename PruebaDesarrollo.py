@@ -49,3 +49,8 @@ print mensajes[0][0]
 resultado = DAO.agregarWhatsCorrecto(mensajes[0])
 print resultado
 
+resultado = DAO.agregarMensajeNoEnviado(mensajes[0])
+print resultado
+
+
+
