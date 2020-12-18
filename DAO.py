@@ -24,6 +24,7 @@ class DAO():
         global tablaWhatsAppCorrecto
         global tablaNoEnviados
         global numeroRegistros
+        global numeroReintentos
         global conn
       
         logger = loggerEntrada
@@ -35,30 +36,28 @@ class DAO():
         tablaWhatsAppCorrecto = config['whatsAppSalida']
         tablaNoEnviados = config['tablaNoEnviados']
         numeroRegistros = config['numeroRegistros']
+        numeroReintentos = config['numeroReintentos']
         try:
             conn = pymssql.connect(host, username, password, database)
             logger.info("Base de Datos conectada")
         except:
             error = traceback.format_exc()
             logger.logError("Error en la base de datos {}".format(error))
-        
-
-    def obtenerMensajes(self):
+  
+    def obtener(self, query, tabla):
         global logger
         global conn
-
         try:
             cursor = conn.cursor()  
             registros= []
-            consulta = "Select TOP("+str(numeroRegistros)+") * from " + tablaEntrada + " order by id"  
-            logger.logInfo(consulta)
-            cursor.execute(consulta)
+            logger.logInfo(query)
+            cursor.execute(query)
             for row in cursor.fetchall():
                 lista= []
                 for col in row:
                     lista.append(col)
                 registros.append(lista)
-            logger.logInfo("Registros obtenidos ->" + str(len(lista)))
+            logger.logInfo("Registros obtenidos -> {} de la tabla {}".format(str(len(lista)), tabla))
             return registros
         except:
             error = traceback.format_exc()
@@ -68,7 +67,6 @@ class DAO():
     def eliminar(self, tabla, id):
         global conn
         global logger
-
         try:
             cursor = conn.cursor()
             query = "DELETE FROM {} WHERE id = '{}'".format(tabla, id)
@@ -82,20 +80,9 @@ class DAO():
             logger.logError("Error {} en la eliminacion de la tabla {} con el id {}".format(error, tabla, id))
             return "ERROR"
     
-    def desconectar(self):
-        global conn
-        global logger
-        logger.info("Coneccion cerrada")
-        conn.close()
-    
-    def eliminarMensajeEntrada(self, id):
-        global tablaEntrada
-        return self.eliminar(tablaEntrada, id)
-    
     def agregar(self, query, tabla):
         global logger
         global conn
-
         try:
             cursor = conn.cursor()
             cursor.execute(query)
@@ -112,6 +99,7 @@ class DAO():
         global conn
 
         try:
+            logger.info(query)
             cursor = conn.cursor()
             cursor.execute(query)
             conn.commit()
@@ -122,6 +110,20 @@ class DAO():
             logger.logError("Error {} actulizando archivo de la tabla {} ".format(error, tabla))
             return "ERROR"  
 
+    def desconectar(self):
+        global conn
+        global logger
+        logger.info("Coneccion cerrada")
+        conn.close()
+    
+    def eliminarMensajeEntrada(self, mensajes):
+        global tablaEntrada
+        return self.eliminar(tablaEntrada, mensajes[0])
+    
+    def eliminarMensajeNoEnviado(self, mensajes):
+        global tablaNoEnviados
+        return self.eliminar(tablaNoEnviados, mensajes[0]) 
+   
     def agregarWhatsCorrecto(self, mensaje):
         global tablaWhatsAppCorrecto
         global logger
@@ -138,8 +140,19 @@ class DAO():
         logger.info(query)
         return self.agregar(query, tablaNoEnviados)
 
-    def actualizarIntento():
-        
-        
+    def actualizarIntento(self, mensaje):
+        global tablaNoEnviados
+        query = "UPDATE {} SET intento = {} WHERE id = {}".format(tablaNoEnviados, mensaje[4] + 1, mensaje[0])
+        return self.actualizar(query, tablaNoEnviados)
 
+    def obtenerMensajes(self):
+        global tablaEntrada
+        query = "Select TOP("+str(numeroRegistros)+") * from " + tablaEntrada + " order by id"
+        return self.obtener(query, tablaEntrada)
 
+    def obtenerMensajesNoEnviados(self):
+        global tablaNoEnviados
+        global numeroReintentos
+        query = "Select TOP({}) * from {} where intento <={} order by id".format(str(numeroRegistros), tablaNoEnviados, numeroReintentos )
+        return self.obtener(query, tablaNoEnviados)
+    

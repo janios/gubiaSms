@@ -39,18 +39,30 @@ logger = Logger(config['logger'])
 DAO = DAO(config['baseDatos'], logger)
 mensajes = DAO.obtenerMensajes()
 
+
 print len(mensajes)
-print mensajes[0][0]
+
+resultado = DAO.eliminarMensajeEntrada(mensajes[0])
+
+#mensajes = DAO.obtenerMensajesNoEnviados()
+
+#resultado = DAO.actualizarIntento(mensajes[1])
+
+#resultado = DAO.eliminarMensajeNoEnviado(mensajes[0])
+
+print resultado
 
 #resultado = DAO.eliminarMensajeEntrada(mensajes[0][0])
 
 #print resultado
 
-resultado = DAO.agregarWhatsCorrecto(mensajes[0])
-print resultado
+#resultado = DAO.agregarWhatsCorrecto(mensajes[0])
+#print resultado
 
-resultado = DAO.agregarMensajeNoEnviado(mensajes[0])
-print resultado
+#resultado = DAO.agregarMensajeNoEnviado(mensajes[0])
+#print resultado
+
+
 
 
 

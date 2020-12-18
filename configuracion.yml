@@ -15,6 +15,7 @@ baseDatos:
   whatsAppSalida: SmsWhatsapp 
   tablaNoEnviados: SmsMensajesNoEnviados 
   numeroRegistros: 5
+  numeroReintentos: 5
 peopleApi:
   token: token.json
   credentials: credentials.json

@@ -306,3 +306,64 @@ INFO - 2020-12-17 15:04:59.126594 - INSERT INTO SmsWhatsapp (telefono, mensaje, 
 INFO - 2020-12-17 15:04:59.309969 - registro agregado a tabla SmsWhatsapp
 INFO - 2020-12-17 15:04:59.310893 - INSERT INTO SmsMensajesNoEnviados (telefono, mensaje, mensajeSms, fecha, Sucursal, intento) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', 'Saludos LORENA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1, 1)
 INFO - 2020-12-17 15:04:59.493744 - registro agregado a tabla SmsMensajesNoEnviados
+INFO - 2020-12-17 17:17:55.983837 - Base de Datos conectada
+INFO - 2020-12-17 17:17:55.988802 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-17 17:17:56.051798 - Registros obtenidos ->6
+INFO - 2020-12-17 17:17:56.053646 - INSERT INTO SmsWhatsapp (telefono, mensaje, fecha, Sucursal) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1)
+INFO - 2020-12-17 17:17:56.261482 - registro agregado a tabla SmsWhatsapp
+INFO - 2020-12-17 17:17:56.263297 - INSERT INTO SmsMensajesNoEnviados (telefono, mensaje, mensajeSms, fecha, Sucursal, intento) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', 'Saludos LORENA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1, 1)
+INFO - 2020-12-17 17:17:56.446891 - registro agregado a tabla SmsMensajesNoEnviados
+INFO - 2020-12-17 17:19:35.579955 - Base de Datos conectada
+INFO - 2020-12-17 17:19:44.498680 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-17 17:19:44.559147 - Registros obtenidos ->6
+INFO - 2020-12-17 17:19:49.753052 - INSERT INTO SmsWhatsapp (telefono, mensaje, fecha, Sucursal) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1)
+INFO - 2020-12-17 17:19:49.934382 - registro agregado a tabla SmsWhatsapp
+INFO - 2020-12-17 17:19:49.936711 - INSERT INTO SmsMensajesNoEnviados (telefono, mensaje, mensajeSms, fecha, Sucursal, intento) values ('7971109731', 'Que tal LORENA tus resultados de Gubia estan listos descargalos aqui /bit.ly/2J8rJyE -Aproveche en Noviembre Chequeo Gold $599', 'Saludos LORENA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Noviembre Chequeo Gold $599', '2020-11-24 05:18:50.003000', 1, 1)
+INFO - 2020-12-17 17:19:50.111311 - registro agregado a tabla SmsMensajesNoEnviados
+INFO - 2020-12-17 20:41:43.869152 - Base de Datos conectada
+INFO - 2020-12-17 20:46:30.526436 - Base de Datos conectada
+INFO - 2020-12-17 20:46:30.527140 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-17 20:46:30.587127 - Registros obtenidos -> 6 de la tabla tbSmsSalidaTest
+INFO - 2020-12-17 20:46:30.587819 - Select TOP(5) * from SmsMensajesNoEnviados order by id
+INFO - 2020-12-17 20:46:30.645741 - Registros obtenidos -> 7 de la tabla SmsMensajesNoEnviados
+INFO - 2020-12-17 21:07:24.141920 - Base de Datos conectada
+INFO - 2020-12-17 21:07:24.142570 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-17 21:07:24.204312 - Registros obtenidos -> 6 de la tabla tbSmsSalidaTest
+INFO - 2020-12-17 21:07:24.204920 - Select TOP() * from 5  where intento <=SmsMensajesNoEnviados  where intento <=5 order by id
+ERROR - 2020-12-17 21:07:24.268062 - Error en la base de datos Traceback (most recent call last):
+  File "/home/pi/gubiaSms/DAO.py", line 55, in obtener
+    cursor.execute(query)
+  File "src/pymssql.pyx", line 465, in pymssql.Cursor.execute
+ProgrammingError: (102, "Incorrect syntax near ')'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+
+INFO - 2020-12-17 21:10:19.407139 - Base de Datos conectada
+INFO - 2020-12-17 21:10:19.407925 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-17 21:10:19.464149 - Registros obtenidos -> 6 de la tabla tbSmsSalidaTest
+INFO - 2020-12-17 21:10:19.464866 - Select TOP(5) * from SmsMensajesNoEnviados  where intento <=5 order by id
+INFO - 2020-12-17 21:10:19.523781 - Registros obtenidos -> 7 de la tabla SmsMensajesNoEnviados
+INFO - 2020-12-17 21:30:25.478060 - Base de Datos conectada
+INFO - 2020-12-17 21:30:25.478721 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-17 21:30:25.547845 - Registros obtenidos -> 6 de la tabla tbSmsSalidaTest
+INFO - 2020-12-17 21:30:25.548480 - Select TOP(5) * from SmsMensajesNoEnviados where intento <=5 order by id
+INFO - 2020-12-17 21:30:25.624666 - Registros obtenidos -> 7 de la tabla SmsMensajesNoEnviados
+INFO - 2020-12-17 21:30:25.625599 - UPDATE SmsMensajesNoEnviados SET intento = 3 WHERE id = 1
+INFO - 2020-12-17 21:30:25.874893 - registro actualizado en la tabla SmsMensajesNoEnviados
+INFO - 2020-12-17 21:31:20.443255 - Base de Datos conectada
+INFO - 2020-12-17 21:31:20.443984 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-17 21:31:20.505954 - Registros obtenidos -> 6 de la tabla tbSmsSalidaTest
+INFO - 2020-12-17 21:31:20.506607 - Select TOP(5) * from SmsMensajesNoEnviados where intento <=5 order by id
+INFO - 2020-12-17 21:31:20.563982 - Registros obtenidos -> 7 de la tabla SmsMensajesNoEnviados
+INFO - 2020-12-17 21:31:20.564526 - UPDATE SmsMensajesNoEnviados SET intento = 2 WHERE id = 2
+INFO - 2020-12-17 21:31:20.732498 - registro actualizado en la tabla SmsMensajesNoEnviados
+INFO - 2020-12-17 21:38:16.262089 - Base de Datos conectada
+INFO - 2020-12-17 21:38:16.262730 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-17 21:38:16.328069 - Registros obtenidos -> 6 de la tabla tbSmsSalidaTest
+INFO - 2020-12-17 21:38:16.328704 - Select TOP(5) * from SmsMensajesNoEnviados where intento <=5 order by id
+INFO - 2020-12-17 21:38:16.398437 - Registros obtenidos -> 7 de la tabla SmsMensajesNoEnviados
+INFO - 2020-12-17 21:38:16.399247 - Ejecutando query -> DELETE FROM SmsMensajesNoEnviados WHERE id = '1'
+INFO - 2020-12-17 21:38:16.604124 - Registro 1 eliminado
+INFO - 2020-12-17 21:39:34.193157 - Base de Datos conectada
+INFO - 2020-12-17 21:39:34.193998 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-17 21:39:34.263118 - Registros obtenidos -> 6 de la tabla tbSmsSalidaTest
+INFO - 2020-12-17 21:39:34.263742 - Ejecutando query -> DELETE FROM tbSmsSalidaTest WHERE id = '4'
+INFO - 2020-12-17 21:39:34.476562 - Registro 4 eliminado
