@@ -30,7 +30,8 @@ class Contactos():
             
             logger.info("People Google iniciado")
         except Exception as inst:
-            logger.error("Error al crear la instancia ",inst)
+            logger.error("Error al crear la instancia {}".format(inst))
+            raise ValueError("Error al crear la instancia {}".format(inst))  
 
 
 
@@ -50,6 +51,7 @@ class Contactos():
             
         except Exception as inst:
             logger.error("Error al eliminar el contacto con id {} error {}".format(id, inst))
+            raise ValueError("Error al eliminar el contacto con id {} error {}".format(id, inst))
 
     def agregarContacto(self, telefono, nombre=None):
         try:
@@ -58,7 +60,7 @@ class Contactos():
             
             logger.info(service)
             if (nombre == None):
-                nombre = telefono
+                nombre = "PacienteGubia{}".format(telefono)
             service.people().createContact(body={
                         "names": [
                             {
@@ -76,8 +78,9 @@ class Contactos():
             return True
         except Exception as inst:
             logger.error("Error al agregar contactos {}".format(inst))
-            return False
+            raise ValueError("Error al agregar contactos {}".format(inst))
 
+    
     def agregarContactos(self, listaContactos):
         for conta in listaContactos:
             self.agregarContacto(conta)
@@ -110,5 +113,5 @@ class Contactos():
             return listadoTelefonos
         except Exception as inst:
             logger.error("Error al listar contactos {}".format(inst))
-
+            raise ValueError("Error al listar contactos {}".format(inst))
 

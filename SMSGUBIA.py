@@ -149,7 +149,7 @@ def resagadosWhats():
 		resultado = enviarWhats(men[2].encode('utf-8'),men[1],2)
 		espera = randint(20,45)
 		print ("la espera sera de: {}".format(espera))
-		time.sleep(espera)
+		time.sleep(espera) 
 
 
 		if resultado == "Whatsapp enviado correctamente":

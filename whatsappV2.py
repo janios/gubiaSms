@@ -40,7 +40,7 @@ class Whatsapp():
         logger.info("Mensaje de WhatsApp # {}".format(incrementa))
         return incrementa
 
-    def enviarWhats(self,numero,texto):
+    def enviar(self,numero,texto):
         global logger
         global token
         global diferenciador
@@ -65,9 +65,14 @@ class Whatsapp():
             result = response.read()
             logger.info("Mensaje a numero {} enviado".format(numero))
         except:
-            result = "Error " + sys.exc_info()
+            result = "Error en WhatsApp {} ".format(sys.exc_info())
             logger.error(result)
+            raise ValueError(result)
+
         finally:
             print(result)
             logger.info("Resultado del envio {}".format(result))
             return result
+
+    def enviarWhats(self,mensaje):
+        self.enviar(mensaje[2],mensaje[3])

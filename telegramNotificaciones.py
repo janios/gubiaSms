@@ -20,9 +20,12 @@ class TelegramNotificaciones():
         url = "https://api.telegram.org/bot{}/".format(config['token'])
     
     def get_url(self, url):
-        response = requests.get(url)
-        content = response.content.decode("utf8")
-        return content
+        try:
+            response = requests.get(url)
+            content = response.content.decode("utf8")
+            return content
+        except Exception as e:
+            raise ValueError("Error en el loger -> {}".format(e))
       
     def enviarMensaje(self,mensaje):
         global url

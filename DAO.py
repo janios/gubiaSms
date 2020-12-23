@@ -23,6 +23,7 @@ class DAO():
         global tablaEntrada
         global tablaWhatsAppCorrecto
         global tablaNoEnviados
+        global tablaMantenimiento
         global numeroRegistros
         global numeroReintentos
         global conn
@@ -35,6 +36,7 @@ class DAO():
         tablaEntrada = config['tablaEntrada']
         tablaWhatsAppCorrecto = config['whatsAppSalida']
         tablaNoEnviados = config['tablaNoEnviados']
+        tablaMantenimiento = config['tablaMantenimiento']
         numeroRegistros = config['numeroRegistros']
         numeroReintentos = config['numeroReintentos']
         try:
@@ -43,6 +45,7 @@ class DAO():
         except:
             error = traceback.format_exc()
             logger.logError("Error en la base de datos {}".format(error))
+            raise ValueError("Error en la base de datos {}".format(error))
   
     def obtener(self, query, tabla):
         global logger
@@ -57,12 +60,11 @@ class DAO():
                 for col in row:
                     lista.append(col)
                 registros.append(lista)
-            logger.logInfo("Registros obtenidos -> {} de la tabla {}".format(str(len(lista)), tabla))
             return registros
         except:
             error = traceback.format_exc()
             logger.logError("Error en la base de datos {}".format(error))
-            return "Error"
+            raise ValueError("Error en la base de datos {}".format(error)) 
 
     def eliminar(self, tabla, id):
         global conn
@@ -78,7 +80,7 @@ class DAO():
         except:
             error = traceback.format_exc()
             logger.logError("Error {} en la eliminacion de la tabla {} con el id {}".format(error, tabla, id))
-            return "ERROR"
+            raise ValueError("Error {} en la eliminacion de la tabla {} con el id {}".format(error, tabla, id))
     
     def agregar(self, query, tabla):
         global logger
@@ -92,7 +94,7 @@ class DAO():
         except:
             error = traceback.format_exc()
             logger.logError("Error {} agregando archivo de la tabla {} ".format(error, tabla))
-            return "ERROR"  
+            raise ValueError("Error {} agregando archivo de la tabla {} ".format(error, tabla))  
 
     def actualizar(self, query, tabla):
         global logger
@@ -108,7 +110,7 @@ class DAO():
         except:
             error = traceback.format_exc()
             logger.logError("Error {} actulizando archivo de la tabla {} ".format(error, tabla))
-            return "ERROR"  
+            raise ValueError("Error {} actulizando archivo de la tabla {} ".format(error, tabla))  
 
     def desconectar(self):
         global conn
@@ -156,3 +158,14 @@ class DAO():
         query = "Select TOP({}) * from {} where intento <={} order by id".format(str(numeroRegistros), tablaNoEnviados, numeroReintentos )
         return self.obtener(query, tablaNoEnviados)
     
+    def obtenerMantenimiento(self):
+        global tablaMantenimiento
+        query = "Select TOP(1) * from {} order by id".format(tablaMantenimiento)
+        mantenimiento = self.obtener(query, tablaMantenimiento)[0][1]
+        logger.info("Periodo de mantenimiento -> {}".format(mantenimiento))
+        return mantenimiento
+    
+    def ponerMantenimiento(self):
+        global tablaMantenimiento
+        query = "update {} SET Mantenimiento = 1 WHERE id = 1".format(tablaMantenimiento)
+        return self.actualizar(query, tablaMantenimiento)
