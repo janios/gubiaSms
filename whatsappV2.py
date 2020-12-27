@@ -30,8 +30,6 @@ class Whatsapp():
     def escribirincrementar(self):
         global logger
         global archivoContador
-        
-        print archivoContador
         incrementa = 0
         archivo = open(archivoContador,'r+')
         incrementa = int(archivo.read()) +1
@@ -48,7 +46,7 @@ class Whatsapp():
 
         result = ""
         try:
-            print(numero)
+            logger.info("Telefono recibido {}".format(numero))
             if (len(numero)==10):
                 numero = "521" + numero
                 logger.info("Se enviara mensaje a {}".format(numero))
@@ -56,23 +54,18 @@ class Whatsapp():
                 logger.error("Eror numero incorrecto {}".format(numero))
                 return "Eror numero incorrecto"
 
-            print(numero)
             claveUnica = diferenciador+ str(self.escribirincrementar())
             data = urllib.urlencode({"token":token,"uid":uid,"to":numero,"custom_uid":claveUnica,"text":texto}) 
-            print(data)
+            logger.info("Datos enviados al servicio {}".format(data))
             req = urllib2.Request('https://www.waboxapp.com/api/send/chat', data) 
             response = urllib2.urlopen(req) 
             result = response.read()
             logger.info("Mensaje a numero {} enviado".format(numero))
-        except:
-            result = "Error en WhatsApp {} ".format(sys.exc_info())
+            return result
+        except Exception as e:
+            result = "Error en WhatsApp {} ".format(e.read())
             logger.error(result)
             raise ValueError(result)
-
-        finally:
-            print(result)
-            logger.info("Resultado del envio {}".format(result))
-            return result
 
     def enviarWhats(self,mensaje):
         self.enviar(mensaje[2],mensaje[3])

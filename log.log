@@ -6965,3 +6965,295 @@ INFO - 2020-12-21 21:20:17.279294 - Se enviara mensaje a 5215554374058
 INFO - 2020-12-21 21:20:17.280433 - Mensaje de WhatsApp # 11
 INFO - 2020-12-21 21:20:18.040719 - Mensaje a numero 5215554374058 enviado
 INFO - 2020-12-21 21:20:18.041266 - Resultado del envio {"success":true,"custom_uid":"prue-11"}
+INFO - 2020-12-26 17:48:17.426480 - Se listaron 100 telefonos
+INFO - 2020-12-26 17:48:17.441396 - People Google iniciado
+INFO - 2020-12-26 17:48:18.405510 - Base de Datos conectada
+INFO - 2020-12-26 17:48:18.406111 - WhatsApp iniciado
+INFO - 2020-12-26 17:48:18.406722 - Iniciado SMSGUBIA 2
+INFO - 2020-12-26 17:48:18.407408 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2020-12-26 17:48:18.407245&chat_id=-429562103
+INFO - 2020-12-26 17:48:19.075394 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 17:48:19.133500 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 17:48:19.134089 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 17:48:19.207295 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 17:48:19.208070 - <googleapiclient.discovery.Resource object at 0x74e8f290>
+INFO - 2020-12-26 17:48:20.090507 - Contacto Agregado 5554374058
+INFO - 2020-12-26 17:48:20.091070 - Espera de envio de WhatsApp de 31
+INFO - 2020-12-26 17:48:51.120589 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 17:48:51.123149 - Mensaje de WhatsApp # 12
+ERROR - 2020-12-26 17:48:51.940162 - Error en WhatsApp (<class 'urllib2.HTTPError'>, HTTPError(), <traceback object at 0x74f1d1c0>) 
+INFO - 2020-12-26 17:48:51.941214 - Resultado del envio Error en WhatsApp (<class 'urllib2.HTTPError'>, HTTPError(), <traceback object at 0x74f1d1c0>) 
+INFO - 2020-12-26 17:51:01.924885 - Se listaron 100 telefonos
+INFO - 2020-12-26 17:51:01.927740 - People Google iniciado
+INFO - 2020-12-26 17:51:02.793457 - Base de Datos conectada
+INFO - 2020-12-26 17:51:02.794018 - WhatsApp iniciado
+INFO - 2020-12-26 17:51:02.794389 - Iniciado SMSGUBIA 2
+INFO - 2020-12-26 17:51:02.794773 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2020-12-26 17:51:02.794690&chat_id=-429562103
+INFO - 2020-12-26 17:51:03.442666 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 17:51:03.499799 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 17:51:03.500433 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 17:51:03.557054 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 17:51:03.557593 - <googleapiclient.discovery.Resource object at 0x74e43470>
+INFO - 2020-12-26 17:51:04.558110 - Contacto Agregado 5554374058
+INFO - 2020-12-26 17:51:04.560310 - Espera de envio de WhatsApp de 21
+INFO - 2020-12-26 17:51:25.580594 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 17:51:25.581637 - Mensaje de WhatsApp # 13
+ERROR - 2020-12-26 17:51:26.356942 - Error en WhatsApp (<class 'urllib2.HTTPError'>, HTTPError(), <traceback object at 0x74ecf828>) 
+INFO - 2020-12-26 17:51:26.357546 - Resultado del envio Error en WhatsApp (<class 'urllib2.HTTPError'>, HTTPError(), <traceback object at 0x74ecf828>) 
+ERROR - 2020-12-26 17:51:26.359247 - Ocurrio error 'NoneType' object has no attribute '__getitem__'
+INFO - 2020-12-26 17:57:03.317799 - People Google iniciado
+INFO - 2020-12-26 17:57:04.983618 - Base de Datos conectada
+INFO - 2020-12-26 17:57:07.683117 - WhatsApp iniciado
+INFO - 2020-12-26 17:57:10.143932 - Iniciado SMSGUBIA 2
+INFO - 2020-12-26 17:57:14.763760 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2020-12-26 17:57:14.762478&chat_id=-429562103
+INFO - 2020-12-26 17:57:21.755918 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 17:57:21.812513 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 17:57:25.878043 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 17:57:41.523345 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 17:57:43.186249 - <googleapiclient.discovery.Resource object at 0x711cd350>
+INFO - 2020-12-26 17:57:44.668417 - Contacto Agregado 5554374058
+INFO - 2020-12-26 17:57:46.571623 - Espera de envio de WhatsApp de 23
+INFO - 2020-12-26 17:59:11.016070 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 17:59:21.150359 - Mensaje de WhatsApp # 14
+ERROR - 2020-12-26 17:59:57.701563 - Error en WhatsApp (<class 'urllib2.HTTPError'>, HTTPError(), <traceback object at 0x71124918>) 
+INFO - 2020-12-26 18:09:28.369324 - People Google iniciado
+INFO - 2020-12-26 18:09:29.033609 - Base de Datos conectada
+INFO - 2020-12-26 18:09:29.034584 - WhatsApp iniciado
+INFO - 2020-12-26 18:09:29.035520 - Iniciado SMSGUBIA 2
+INFO - 2020-12-26 18:09:29.036878 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2020-12-26 18:09:29.036680&chat_id=-429562103
+INFO - 2020-12-26 18:09:29.746784 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:09:29.803073 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:09:29.803620 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:09:29.863971 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:09:29.864737 - <googleapiclient.discovery.Resource object at 0x74e433b0>
+INFO - 2020-12-26 18:09:31.246383 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:09:31.247258 - Espera de envio de WhatsApp de 29
+INFO - 2020-12-26 18:10:00.270591 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 18:10:00.271716 - Mensaje de WhatsApp # 15
+INFO - 2020-12-26 18:10:01.010067 - Resultado del envio 
+ERROR - 2020-12-26 18:10:01.011606 - Ocurrio error 'NoneType' object has no attribute '__getitem__'
+INFO - 2020-12-26 18:10:01.012272 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Ocurrio error fatal  'NoneType' object has no attribute '__getitem__'&chat_id=-429562103
+INFO - 2020-12-26 18:11:42.537517 - People Google iniciado
+INFO - 2020-12-26 18:11:43.134152 - Base de Datos conectada
+INFO - 2020-12-26 18:11:43.140038 - WhatsApp iniciado
+INFO - 2020-12-26 18:11:43.143908 - Iniciado SMSGUBIA 2
+INFO - 2020-12-26 18:11:43.148495 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2020-12-26 18:11:43.146602&chat_id=-429562103
+INFO - 2020-12-26 18:11:43.924746 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:11:43.982273 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:11:43.984851 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:11:44.044256 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:11:47.932760 - <googleapiclient.discovery.Resource object at 0x709cfdf0>
+INFO - 2020-12-26 18:11:49.617416 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:11:50.282237 - Espera de envio de WhatsApp de 35
+INFO - 2020-12-26 18:12:44.854553 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 18:13:12.775873 - Mensaje de WhatsApp # 16
+INFO - 2020-12-26 18:14:01.483657 - Resultado del envio 
+ERROR - 2020-12-26 18:14:09.468129 - Ocurrio error 'NoneType' object has no attribute '__getitem__'
+INFO - 2020-12-26 18:14:09.470290 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Ocurrio error fatal  'NoneType' object has no attribute '__getitem__'&chat_id=-429562103
+INFO - 2020-12-26 18:16:02.448099 - People Google iniciado
+INFO - 2020-12-26 18:16:03.042261 - Base de Datos conectada
+INFO - 2020-12-26 18:16:03.043945 - WhatsApp iniciado
+INFO - 2020-12-26 18:16:03.045257 - Iniciado SMSGUBIA 2
+INFO - 2020-12-26 18:16:03.046954 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2020-12-26 18:16:03.046480&chat_id=-429562103
+INFO - 2020-12-26 18:16:03.899384 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:16:03.958710 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:16:03.962688 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:16:04.027531 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:16:07.131682 - <googleapiclient.discovery.Resource object at 0x70991db0>
+INFO - 2020-12-26 18:16:08.827075 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:16:10.107209 - Espera de envio de WhatsApp de 37
+INFO - 2020-12-26 18:16:58.894774 - Telefono recibido 5554374058
+INFO - 2020-12-26 18:17:08.334110 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 18:17:10.218855 - Mensaje de WhatsApp # 17
+INFO - 2020-12-26 18:17:14.816627 - Datos enviados al servicio custom_uid=prue-17&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+LORENA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%2Fbit.ly%2F2J8rJyE+-Aproveche+en+Noviembre+Chequeo+Gold+%24599
+ERROR - 2020-12-26 18:17:43.508810 - Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+INFO - 2020-12-26 18:18:25.940442 - Resultado del envio Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+ERROR - 2020-12-26 18:19:01.857196 - Ocurrio error 'NoneType' object has no attribute '__getitem__'
+INFO - 2020-12-26 18:19:38.859787 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Ocurrio error fatal  'NoneType' object has no attribute '__getitem__'&chat_id=-429562103
+INFO - 2020-12-26 18:20:21.602181 - People Google iniciado
+INFO - 2020-12-26 18:20:22.194717 - Base de Datos conectada
+INFO - 2020-12-26 18:20:22.195293 - WhatsApp iniciado
+INFO - 2020-12-26 18:20:22.195684 - Iniciado SMSGUBIA 2
+INFO - 2020-12-26 18:20:22.196097 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2020-12-26 18:20:22.196014&chat_id=-429562103
+INFO - 2020-12-26 18:20:22.880162 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:20:22.943221 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:20:22.943935 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:20:23.003294 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:20:23.003920 - <googleapiclient.discovery.Resource object at 0x74dd34b0>
+INFO - 2020-12-26 18:20:24.427923 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:20:24.428633 - Espera de envio de WhatsApp de 33
+INFO - 2020-12-26 18:20:57.460431 - Telefono recibido 5554374058
+INFO - 2020-12-26 18:20:57.461269 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 18:20:57.461978 - Mensaje de WhatsApp # 18
+INFO - 2020-12-26 18:20:57.463028 - Datos enviados al servicio custom_uid=prue-18&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+LORENA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%2Fbit.ly%2F2J8rJyE+-Aproveche+en+Noviembre+Chequeo+Gold+%24599
+ERROR - 2020-12-26 18:20:58.200394 - Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+INFO - 2020-12-26 18:20:58.200970 - Resultado del envio Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+INFO - 2020-12-26 18:21:38.157412 - People Google iniciado
+INFO - 2020-12-26 18:21:39.069670 - Base de Datos conectada
+INFO - 2020-12-26 18:21:39.072215 - WhatsApp iniciado
+INFO - 2020-12-26 18:21:39.074257 - Iniciado SMSGUBIA 2
+INFO - 2020-12-26 18:21:39.076538 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2020-12-26 18:21:39.075925&chat_id=-429562103
+INFO - 2020-12-26 18:21:39.875888 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:21:39.933852 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:21:39.936326 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:21:40.001962 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:21:42.304011 - <googleapiclient.discovery.Resource object at 0x709e3150>
+INFO - 2020-12-26 18:21:44.138270 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:21:44.854156 - Espera de envio de WhatsApp de 22
+INFO - 2020-12-26 18:22:21.996524 - Telefono recibido 5554374058
+INFO - 2020-12-26 18:22:23.865748 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 18:22:24.407859 - Mensaje de WhatsApp # 19
+INFO - 2020-12-26 18:22:25.748736 - Datos enviados al servicio custom_uid=prue-19&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+LORENA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%2Fbit.ly%2F2J8rJyE+-Aproveche+en+Noviembre+Chequeo+Gold+%24599
+ERROR - 2020-12-26 18:22:33.041246 - Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+INFO - 2020-12-26 18:22:56.857494 - Resultado del envio Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+INFO - 2020-12-26 18:25:22.015987 - People Google iniciado
+INFO - 2020-12-26 18:25:22.897342 - Base de Datos conectada
+INFO - 2020-12-26 18:25:22.900946 - WhatsApp iniciado
+INFO - 2020-12-26 18:25:22.904555 - Iniciado SMSGUBIA 2
+INFO - 2020-12-26 18:25:22.908976 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2020-12-26 18:25:22.908329&chat_id=-429562103
+INFO - 2020-12-26 18:25:23.682135 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:25:23.739467 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:25:23.743310 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:25:23.811542 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:25:30.292059 - <googleapiclient.discovery.Resource object at 0x71262170>
+INFO - 2020-12-26 18:25:31.956655 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:25:32.869439 - Espera de envio de WhatsApp de 45
+INFO - 2020-12-26 18:26:23.181464 - Telefono recibido 5554374058
+INFO - 2020-12-26 18:26:25.257728 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 18:26:25.959074 - Mensaje de WhatsApp # 20
+INFO - 2020-12-26 18:26:27.188276 - Datos enviados al servicio custom_uid=prue-20&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+LORENA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%2Fbit.ly%2F2J8rJyE+-Aproveche+en+Noviembre+Chequeo+Gold+%24599
+ERROR - 2020-12-26 18:26:39.161837 - Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+INFO - 2020-12-26 18:27:14.564647 - People Google iniciado
+INFO - 2020-12-26 18:27:15.153867 - Base de Datos conectada
+INFO - 2020-12-26 18:27:15.154430 - WhatsApp iniciado
+INFO - 2020-12-26 18:27:15.154899 - Iniciado SMSGUBIA 2
+INFO - 2020-12-26 18:27:15.155451 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2020-12-26 18:27:15.155332&chat_id=-429562103
+INFO - 2020-12-26 18:27:15.802560 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:27:15.860405 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:27:15.861283 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:27:15.917617 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:27:15.918160 - <googleapiclient.discovery.Resource object at 0x74ec02b0>
+INFO - 2020-12-26 18:27:17.307459 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:27:17.308034 - Espera de envio de WhatsApp de 43
+INFO - 2020-12-26 18:28:00.350387 - Telefono recibido 5554374058
+INFO - 2020-12-26 18:28:00.350959 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 18:28:00.351650 - Mensaje de WhatsApp # 21
+INFO - 2020-12-26 18:28:00.352710 - Datos enviados al servicio custom_uid=prue-21&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+LORENA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%2Fbit.ly%2F2J8rJyE+-Aproveche+en+Noviembre+Chequeo+Gold+%24599
+ERROR - 2020-12-26 18:28:01.088406 - Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+ERROR - 2020-12-26 18:28:01.089146 - Ocurrio error Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+INFO - 2020-12-26 18:28:01.089685 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Ocurrio error fatal  Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} &chat_id=-429562103
+INFO - 2020-12-26 18:47:13.265727 - People Google iniciado
+INFO - 2020-12-26 18:47:13.865850 - Base de Datos conectada
+INFO - 2020-12-26 18:47:13.866437 - WhatsApp iniciado
+INFO - 2020-12-26 18:47:13.866916 - Iniciado SMSGUBIA 2
+INFO - 2020-12-26 18:47:13.867484 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2020-12-26 18:47:13.867358&chat_id=-429562103
+INFO - 2020-12-26 18:47:14.545072 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:47:14.602313 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:47:14.603032 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:47:14.659264 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:47:14.660118 - <googleapiclient.discovery.Resource object at 0x74e203b0>
+INFO - 2020-12-26 18:47:15.929761 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:47:15.930825 - Espera de envio de WhatsApp de 31
+INFO - 2020-12-26 18:47:46.960547 - Telefono recibido 5554374058
+INFO - 2020-12-26 18:47:46.961589 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 18:47:46.962542 - Mensaje de WhatsApp # 22
+INFO - 2020-12-26 18:47:46.963895 - Datos enviados al servicio custom_uid=prue-22&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+LORENA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%2Fbit.ly%2F2J8rJyE+-Aproveche+en+Noviembre+Chequeo+Gold+%24599
+ERROR - 2020-12-26 18:47:47.723302 - Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+ERROR - 2020-12-26 18:47:47.724372 - Ocurrio un error Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+INFO - 2020-12-26 18:47:47.725408 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:47:47.783136 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:47:47.784645 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:47:47.844132 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:47:47.844703 - <googleapiclient.discovery.Resource object at 0x74e203b0>
+INFO - 2020-12-26 18:47:48.911957 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:47:48.913410 - Espera de envio de WhatsApp de 44
+INFO - 2020-12-26 18:52:20.335835 - People Google iniciado
+INFO - 2020-12-26 18:52:20.942919 - Base de Datos conectada
+INFO - 2020-12-26 18:52:20.944698 - WhatsApp iniciado
+INFO - 2020-12-26 18:52:20.946126 - Iniciado SMSGUBIA 2
+INFO - 2020-12-26 18:52:20.947769 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2020-12-26 18:52:20.947275&chat_id=-429562103
+INFO - 2020-12-26 18:52:31.169453 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:52:31.840087 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:52:34.836391 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:52:43.078454 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:52:44.833909 - <googleapiclient.discovery.Resource object at 0x708c9e30>
+INFO - 2020-12-26 18:52:46.974207 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:52:47.799624 - Espera de envio de WhatsApp de 20
+INFO - 2020-12-26 18:53:10.795641 - Telefono recibido 5554374058
+INFO - 2020-12-26 18:53:10.798139 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 18:53:10.803885 - Mensaje de WhatsApp # 23
+INFO - 2020-12-26 18:53:10.811010 - Datos enviados al servicio custom_uid=prue-23&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+LORENA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%2Fbit.ly%2F2J8rJyE+-Aproveche+en+Noviembre+Chequeo+Gold+%24599
+ERROR - 2020-12-26 18:53:11.642984 - Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+ERROR - 2020-12-26 18:53:16.859069 - Ocurrio un error Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+INFO - 2020-12-26 18:53:23.467327 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:53:23.526461 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:53:24.908461 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:53:25.694063 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:53:27.307454 - <googleapiclient.discovery.Resource object at 0x708c9e30>
+INFO - 2020-12-26 18:53:28.649173 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:53:30.573502 - Espera de envio de WhatsApp de 25
+INFO - 2020-12-26 18:55:00.466167 - People Google iniciado
+INFO - 2020-12-26 18:55:01.135436 - Base de Datos conectada
+INFO - 2020-12-26 18:55:01.137937 - WhatsApp iniciado
+INFO - 2020-12-26 18:55:01.140449 - Iniciado SMSGUBIA 2
+INFO - 2020-12-26 18:55:01.143263 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2020-12-26 18:55:01.142475&chat_id=-429562103
+INFO - 2020-12-26 18:55:06.379682 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:55:06.445603 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:55:07.119945 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:55:09.926995 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:55:11.349893 - <googleapiclient.discovery.Resource object at 0x71222110>
+INFO - 2020-12-26 18:55:13.140098 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:55:14.595500 - Espera de envio de WhatsApp de 21
+INFO - 2020-12-26 18:55:36.999412 - Telefono recibido 5554374058
+INFO - 2020-12-26 18:55:37.002157 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 18:55:37.010952 - Mensaje de WhatsApp # 24
+INFO - 2020-12-26 18:55:37.015949 - Datos enviados al servicio custom_uid=prue-24&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+LORENA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%2Fbit.ly%2F2J8rJyE+-Aproveche+en+Noviembre+Chequeo+Gold+%24599
+ERROR - 2020-12-26 18:55:37.805132 - Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+ERROR - 2020-12-26 18:55:40.629354 - Ocurrio un error Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+INFO - 2020-12-26 18:56:00.946131 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:56:01.006388 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:56:03.935962 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:56:05.047415 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:56:06.588839 - <googleapiclient.discovery.Resource object at 0x71222110>
+INFO - 2020-12-26 18:56:07.759894 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:56:09.088770 - Espera de envio de WhatsApp de 30
+INFO - 2020-12-26 18:57:00.340490 - People Google iniciado
+INFO - 2020-12-26 18:57:00.961944 - Base de Datos conectada
+INFO - 2020-12-26 18:57:00.963493 - WhatsApp iniciado
+INFO - 2020-12-26 18:57:00.964836 - Iniciado SMSGUBIA 2
+INFO - 2020-12-26 18:57:00.966497 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2020-12-26 18:57:00.966019&chat_id=-429562103
+INFO - 2020-12-26 18:57:08.782703 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:57:08.844881 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:57:09.720151 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:57:10.535356 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:57:11.991036 - <googleapiclient.discovery.Resource object at 0x71253df0>
+INFO - 2020-12-26 18:57:13.483813 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:57:15.081092 - Espera de envio de WhatsApp de 24
+INFO - 2020-12-26 18:58:54.943296 - Telefono recibido 5554374058
+INFO - 2020-12-26 18:58:54.945484 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 18:58:54.950972 - Mensaje de WhatsApp # 25
+INFO - 2020-12-26 18:58:54.954617 - Datos enviados al servicio custom_uid=prue-25&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+LORENA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%2Fbit.ly%2F2J8rJyE+-Aproveche+en+Noviembre+Chequeo+Gold+%24599
+ERROR - 2020-12-26 18:58:55.745762 - Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+ERROR - 2020-12-26 18:58:58.274266 - Ocurrio un error Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+INFO - 2020-12-26 18:59:15.037877 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 18:59:15.096834 - Periodo de mantenimiento -> 0
+INFO - 2020-12-26 18:59:22.884860 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2020-12-26 18:59:29.551670 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2020-12-26 18:59:31.174533 - <googleapiclient.discovery.Resource object at 0x71253df0>
+INFO - 2020-12-26 18:59:32.388879 - Contacto Agregado 5554374058
+INFO - 2020-12-26 18:59:33.032409 - Espera de envio de WhatsApp de 37
+INFO - 2020-12-26 19:00:13.465114 - Telefono recibido 5554374058
+INFO - 2020-12-26 19:00:13.468307 - Se enviara mensaje a 5215554374058
+INFO - 2020-12-26 19:00:13.472210 - Mensaje de WhatsApp # 26
+INFO - 2020-12-26 19:00:13.476448 - Datos enviados al servicio custom_uid=prue-26&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+LORENA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%2Fbit.ly%2F2J8rJyE+-Aproveche+en+Noviembre+Chequeo+Gold+%24599
+ERROR - 2020-12-26 19:00:14.218141 - Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+ERROR - 2020-12-26 19:00:17.580485 - Ocurrio un error Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} 
+INFO - 2020-12-26 19:00:27.451885 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Ocurrio error fatal  Error en WhatsApp {"error":" WA session for '527971416893' is not connected with waboxapp right now"} &chat_id=-429562103
+INFO - 2020-12-26 19:00:35.090682 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Entrando a modo de mantenimiento&chat_id=-429562103
+ERROR - 2020-12-26 19:00:37.888296 - Entrando en modo de mantenimiento
+INFO - 2020-12-26 19:00:38.954889 - update SmsGubiaMantenimiento SET Mantenimiento = 1 WHERE id = 1
+INFO - 2020-12-26 19:00:39.126849 - registro actualizado en la tabla SmsGubiaMantenimiento
+INFO - 2020-12-26 19:00:45.029167 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2020-12-26 19:00:45.089076 - Periodo de mantenimiento -> 1
+INFO - 2020-12-26 19:00:54.429659 - Se encuentra en periodo de Mantenimiento
+INFO - 2020-12-26 19:00:59.071124 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=SMS se encuenta en periodo de mantenimiento favor de validar&chat_id=-429562103
+INFO - 2020-12-26 19:01:08.855215 - Se realizara espera de mantenimiento de 30 segundos

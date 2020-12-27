@@ -26,8 +26,7 @@ class Contactos():
                 flow = client.flow_from_clientsecrets(credentials, SCOPES)
                 creds = tools.run_flow(flow, store)
             service = build('people', 'v1', http=creds.authorize(Http()))
-            listadoTelefonos = self.listarContactos()
-            
+                        
             logger.info("People Google iniciado")
         except Exception as inst:
             logger.error("Error al crear la instancia {}".format(inst))

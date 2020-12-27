@@ -3,8 +3,8 @@
 pruebas: true
 esperaWhatsMenor: 20
 esperaWhatsMayor: 45
-esperaMantenimiento: 30
-erroresParaMantenimiento: 6
+esperaMantenimiento: 900
+erroresParaMantenimiento: 2
 logger:
   archivo: /home/pi/gubiaSms/log.log
 gubiaBoot:
