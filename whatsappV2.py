@@ -68,4 +68,4 @@ class Whatsapp():
             raise ValueError(result)
 
     def enviarWhats(self,mensaje):
-        self.enviar(mensaje[2],mensaje[3])
+        return self.enviar(mensaje[2],mensaje[3])

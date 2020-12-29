@@ -3,7 +3,7 @@
 pruebas: true
 esperaWhatsMenor: 20
 esperaWhatsMayor: 45
-esperaMantenimiento: 900
+esperaMantenimiento: 900  
 erroresParaMantenimiento: 2
 logger:
   archivo: /home/pi/gubiaSms/log.log
@@ -20,6 +20,7 @@ baseDatos:
   whatsAppSalida: SmsWhatsapp 
   tablaNoEnviados: SmsMensajesNoEnviados
   tablaMantenimiento: SmsGubiaMantenimiento
+  tablaErrores: SmsMensajesErrores 
   numeroRegistros: 5
   numeroReintentos: 5
 peopleApi:

@@ -3,6 +3,7 @@
 
 import pymssql
 import traceback
+from datetime import datetime
 
 host = ""
 username = ""
@@ -24,6 +25,7 @@ class DAO():
         global tablaWhatsAppCorrecto
         global tablaNoEnviados
         global tablaMantenimiento
+        global tablaErrores
         global numeroRegistros
         global numeroReintentos
         global conn
@@ -37,6 +39,7 @@ class DAO():
         tablaWhatsAppCorrecto = config['whatsAppSalida']
         tablaNoEnviados = config['tablaNoEnviados']
         tablaMantenimiento = config['tablaMantenimiento']
+        tablaErrores = config['tablaErrores']
         numeroRegistros = config['numeroRegistros']
         numeroReintentos = config['numeroReintentos']
         try:
@@ -130,21 +133,30 @@ class DAO():
         global tablaWhatsAppCorrecto
         global logger
         
-        query = "INSERT INTO {} (telefono, mensaje, fecha, Sucursal) values ('{}', '{}', '{}', {})".format(tablaWhatsAppCorrecto, mensaje[2], mensaje[3],mensaje[1],mensaje[5]) 
+        query = "INSERT INTO {} (telefono, mensaje, fecha, Sucursal, fechaEnvio) values ('{}', '{}', '{}', {}, '{}')".format(tablaWhatsAppCorrecto, mensaje[2], mensaje[3],mensaje[1],mensaje[5],str(datetime.now())[:19] ) 
         logger.info(query)
         return self.agregar(query, tablaWhatsAppCorrecto)
+    
 
     def agregarMensajeNoEnviado(self, mensaje):
         global tablaNoEnviados
         global logger
 
-        query = "INSERT INTO {} (telefono, mensaje, mensajeSms, fecha, Sucursal, intento) values ('{}', '{}', '{}', '{}', {}, 1)".format(tablaNoEnviados, mensaje[2], mensaje[3],  mensaje[4],mensaje[1],mensaje[5]) 
+        query = "INSERT INTO {} (telefono, mensaje, mensajeSms, fecha, Sucursal, intento, fechaIntento ) values ('{}', '{}', '{}', '{}', {}, 1, {})".format(tablaNoEnviados, mensaje[2], mensaje[3],  mensaje[4],mensaje[1],mensaje[5], datetime.now() ) 
+        logger.info(query)
+        return self.agregar(query, tablaNoEnviados)
+
+    def agregarMensajeError(self, mensaje):
+        global tablaErrores
+        global logger
+
+        query = "INSERT INTO {} (telefono, mensaje, mensajeSms, fecha, Sucursal, fechaIntento ) values ('{}', '{}', '{}', '{}', {}, '{}')".format(tablaErrores, mensaje[2], mensaje[3],  mensaje[4],mensaje[1],str(mensaje[5])[:19], str(datetime.now())[:19]) 
         logger.info(query)
         return self.agregar(query, tablaNoEnviados)
 
     def actualizarIntento(self, mensaje):
         global tablaNoEnviados
-        query = "UPDATE {} SET intento = {} WHERE id = {}".format(tablaNoEnviados, mensaje[4] + 1, mensaje[0])
+        query = "UPDATE {} SET intento = {}, fechaIntento = {} WHERE id = {}".format(tablaNoEnviados, mensaje[4] + 1, datetime.now() ,mensaje[0])
         return self.actualizar(query, tablaNoEnviados)
 
     def obtenerMensajes(self):

@@ -63,13 +63,24 @@ try:
 
 
             for mensaje in mensajes:
+                logger.info("Enviando mensaje {}".format(mensaje))
                 contactos.agregarContacto(mensaje[2])
                 esperaWhatsApp()
                 resultado = whatsApp.enviarWhats(mensaje)
-                print(resultado)
-                print(resultado["success"])
-
-                   
+                logger.info("Resultado del envio de WhatsApp {}".format(resultado))
+                
+                if "Eror numero incorrecto" in resultado:
+                    DAO.agregarMensajeError(mensaje)
+                    DAO.eliminarMensajeEntrada(mensaje)
+                    continue
+                
+                if "success" in resultado:
+                    DAO.agregarWhatsCorrecto(mensaje)
+                    DAO.eliminarMensajeEntrada(mensaje)
+                    erroresParaMantenimiento = 0
+                    continue
+                
+                                                  
             erroresParaMantenimiento = 0
         except Exception as e:
             logger.error("Ocurrio un error {}".format(e))
