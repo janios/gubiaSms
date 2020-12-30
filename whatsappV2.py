@@ -37,6 +37,11 @@ class Whatsapp():
         archivo.write(str(incrementa))
         logger.info("Mensaje de WhatsApp # {}".format(incrementa))
         return incrementa
+    
+    def force_text(self, text):
+        if (isinstance(text, unicode)):
+            return text.encode("utf-8")
+        return str(text)
 
     def enviar(self,numero,texto):
         global logger
@@ -55,7 +60,7 @@ class Whatsapp():
                 return "Eror numero incorrecto"
 
             claveUnica = diferenciador+ str(self.escribirincrementar())
-            data = urllib.urlencode({"token":token,"uid":uid,"to":numero,"custom_uid":claveUnica,"text":texto}) 
+            data = urllib.urlencode({"token":token,"uid":uid,"to":numero,"custom_uid":claveUnica,"text":self.force_text(texto)}) 
             logger.info("Datos enviados al servicio {}".format(data))
             req = urllib2.Request('https://www.waboxapp.com/api/send/chat', data) 
             response = urllib2.urlopen(req) 

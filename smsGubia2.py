@@ -23,15 +23,34 @@ def esperaWhatsApp():
     logger.info("Espera de envio de WhatsApp de {}".format(espera))
     time.sleep(espera)
 
+def enviarMensajeWhatsApp(mensaje):
+    logger.info("Enviando mensaje {}".format(mensaje))
+    contactos.agregarContacto(mensaje[2])
+    esperaWhatsApp()
+    resultado = whatsApp.enviarWhats(mensaje)
+    logger.info("Resultado del envio de WhatsApp {}".format(resultado))
+    return resultado
+
+def enviarPrueba():
+    logger.info("Enviado mensajes de prueba")
+    for telefono in telefonosPrueba:
+        logger.info("Enviado mensaje a {}".format(telefono))
+        contactos.agregarContacto(telefono)
+        esperaWhatsApp() 
+        texto = mensajePrueba.format(datetime.now())
+        texto = texto.replace("!n", "\n")
+        resultado = whatsApp.enviar(telefono,texto)
+        logger.info("Resultado del envio de WhatsApp {}".format(resultado))
 
 
 erroresParaMantenimiento = 0
-
+fechaPrueba = ''
 
 config = yaml.safe_load(open('configuracion.yml'))
 logger = Logger(config['logger'])
 maximoErrores = config['erroresParaMantenimiento']
-
+mensajePrueba = config['mensajePrueba']
+telefonosPrueba = config['telefonosPrueba']
 
 try:
 
@@ -56,32 +75,51 @@ try:
                 time.sleep(config['esperaMantenimiento'])
                 continue
 
+            if fechaPrueba != str(datetime.now())[:10]:
+                enviarPrueba()
+                fechaPrueba = str(datetime.now())[:10]    
+
+
             #obtiene mensajes a enviar
             mensajes = DAO.obtenerMensajes()
 
             logger.info("Mensajes a enviar por WhatsApp -> {}".format(len(mensajes)))
 
-
+            #envio de mensajes 
             for mensaje in mensajes:
-                logger.info("Enviando mensaje {}".format(mensaje))
-                contactos.agregarContacto(mensaje[2])
-                esperaWhatsApp()
-                resultado = whatsApp.enviarWhats(mensaje)
-                logger.info("Resultado del envio de WhatsApp {}".format(resultado))
-                
+                resultado = enviarMensajeWhatsApp(mensaje)
                 if "Eror numero incorrecto" in resultado:
                     DAO.agregarMensajeError(mensaje)
                     DAO.eliminarMensajeEntrada(mensaje)
                     continue
                 
-                if "success" in resultado:
+                if '"success":true' in resultado:
                     DAO.agregarWhatsCorrecto(mensaje)
                     DAO.eliminarMensajeEntrada(mensaje)
-                    erroresParaMantenimiento = 0
+                    
                     continue
-                
-                                                  
+                else:
+                    DAO.agregarMensajeNoEnviado(mensaje)
+                    DAO.eliminarMensajeEntrada
+                    
             erroresParaMantenimiento = 0
+                                  
+            
+            mensajes = DAO.obtenerMensajesNoEnviados()
+
+            for mensaje in mensajes:
+                resultado = enviarMensajeWhatsApp(mensaje)
+
+                if '"success":true' in resultado:
+                    DAO.agregarWhatsCorrectoNoEnviado(mensaje)
+                    DAO.eliminarMensajeNoEnviado(mensaje)
+                    
+                    continue
+                else:
+                    DAO.actualizarIntento(mensaje)
+
+
+
         except Exception as e:
             logger.error("Ocurrio un error {}".format(e))
             if (erroresParaMantenimiento == maximoErrores):
@@ -95,47 +133,7 @@ except Exception as e:
     logger.error("Ocurrio error {}".format(e))
     telegram.enviarMensaje("Ocurrio error fatal  {}".format(e))    
 
-    #resultado = contactos.agregarContacto("2223178965", "Andres")
-
-    #resultados = contactos.listarContactos()
-    #print resultados
-
-    #for resultado in resultados:
-    #    print resultado
-    #    contactos.eliminarContacto(resultado)
-
-    #resultados = contactos.listarContactos()
-    #print resultados
-
-    #whatsApp = Whatsapp(config['whatsApp'], logger)
-    #whatsApp = Whatsapp()
-    #resultado = whatsApp.enviarWhats("2223178965" , "Este mensaje es automatico desde el sms V2 pero eso no te quita lo puto, ni que los pumas esten en la final, voy ver el futbol mañana sigo")
-    #print resultado
-
-    #
-
-
-    #print len(mensajes)
-
-    #resultado = DAO.eliminarMensajeEntrada(mensajes[0])
-
-    #mensajes = DAO.obtenerMensajesNoEnviados()
-
-    #resultado = DAO.actualizarIntento(mensajes[1])
-
-    #resultado = DAO.eliminarMensajeNoEnviado(mensajes[0])
-
-    #print resultado
-
-    #resultado = DAO.eliminarMensajeEntrada(mensajes[0][0])
-
-    #print resultado
-
-    #resultado = DAO.agregarWhatsCorrecto(mensajes[0])
-    #print resultado
-
-    #resultado = DAO.agregarMensajeNoEnviado(mensajes[0])
-    #print resultado
+   
 
 
 

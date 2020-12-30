@@ -137,12 +137,20 @@ class DAO():
         logger.info(query)
         return self.agregar(query, tablaWhatsAppCorrecto)
     
+    def agregarWhatsCorrectoNoEnviado(self, mensaje):
+        global tablaWhatsAppCorrecto
+        global logger
+        
+        query = "INSERT INTO {} (telefono, mensaje, fecha, Sucursal, fechaEnvio) values ('{}', '{}', '{}', {}, '{}')".format(tablaWhatsAppCorrecto, mensaje[2], mensaje[5],mensaje[1],mensaje[6],str(datetime.now())[:19] ) 
+        logger.info(query)
+        return self.agregar(query, tablaWhatsAppCorrecto)
+    
 
     def agregarMensajeNoEnviado(self, mensaje):
         global tablaNoEnviados
         global logger
 
-        query = "INSERT INTO {} (telefono, mensaje, mensajeSms, fecha, Sucursal, intento, fechaIntento ) values ('{}', '{}', '{}', '{}', {}, 1, {})".format(tablaNoEnviados, mensaje[2], mensaje[3],  mensaje[4],mensaje[1],mensaje[5], datetime.now() ) 
+        query = "INSERT INTO {} (telefono, mensaje, mensajeSms, fecha, Sucursal, intento, fechaIntento ) values ('{}', '{}', '{}', '{}', {}, 1, '{}')".format(tablaNoEnviados, mensaje[2], mensaje[3],  mensaje[4],str(mensaje[1])[:19],mensaje[5], str(datetime.now())[:19] ) 
         logger.info(query)
         return self.agregar(query, tablaNoEnviados)
 
@@ -156,7 +164,7 @@ class DAO():
 
     def actualizarIntento(self, mensaje):
         global tablaNoEnviados
-        query = "UPDATE {} SET intento = {}, fechaIntento = {} WHERE id = {}".format(tablaNoEnviados, mensaje[4] + 1, datetime.now() ,mensaje[0])
+        query = "UPDATE {} SET intento = {}, fechaIntento = '{}' WHERE id = {}".format(tablaNoEnviados, mensaje[4] + 1, str(datetime.now())[:19] ,mensaje[0])
         return self.actualizar(query, tablaNoEnviados)
 
     def obtenerMensajes(self):
