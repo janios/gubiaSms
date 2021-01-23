@@ -179,3 +179,829 @@ INFO - 2021-01-23 11:42:25.052522 - Registro 7 eliminado
 INFO - 2021-01-23 11:42:37.606130 - Select TOP(1) * from SmsGubiaMantenimiento order by id
 INFO - 2021-01-23 11:42:37.672641 - Periodo de mantenimiento -> 0
 INFO - 2021-01-23 11:42:41.802495 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2021-01-23 12:41:35.010686 - People Google iniciado
+INFO - 2021-01-23 12:41:37.411296 - Base de Datos conectada
+INFO - 2021-01-23 12:41:42.228538 - WhatsApp iniciado
+INFO - 2021-01-23 12:41:44.092899 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 12:41:47.567010 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 12:41:47.566262&chat_id=-429562103
+INFO - 2021-01-23 12:41:54.036815 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 12:41:54.133427 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 12:41:59.083961 - Enviado mensajes de prueba
+INFO - 2021-01-23 12:41:59.086297 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 12:41:59.087939 - <googleapiclient.discovery.Resource object at 0xb121ab30>
+INFO - 2021-01-23 12:42:00.693114 - Contacto Agregado 5554374058
+INFO - 2021-01-23 12:42:00.694826 - Espera de envio de WhatsApp de 31
+INFO - 2021-01-23 12:42:31.721436 - Telefono recibido 5554374058
+INFO - 2021-01-23 12:42:31.723120 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 12:42:31.727652 - Mensaje de WhatsApp # 116
+INFO - 2021-01-23 12:42:31.730287 - Datos enviados al servicio custom_uid=prue3-116&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Prueba
+INFO - 2021-01-23 12:42:32.731637 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 12:42:32.733069 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-116"}
+INFO - 2021-01-23 12:42:32.734969 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 12:42:32.736548 - <googleapiclient.discovery.Resource object at 0xb121ab30>
+INFO - 2021-01-23 12:42:33.735377 - Contacto Agregado 7971109731
+INFO - 2021-01-23 12:42:33.737601 - Espera de envio de WhatsApp de 24
+INFO - 2021-01-23 12:42:57.761261 - Telefono recibido 7971109731
+INFO - 2021-01-23 12:42:57.763019 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 12:42:57.764773 - Mensaje de WhatsApp # 117
+INFO - 2021-01-23 12:42:57.768738 - Datos enviados al servicio custom_uid=prue3-117&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Prueba
+INFO - 2021-01-23 12:42:58.933674 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 12:42:58.941942 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-117"}
+INFO - 2021-01-23 12:42:58.943620 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 12:42:58.945271 - <googleapiclient.discovery.Resource object at 0xb121ab30>
+INFO - 2021-01-23 12:43:00.005956 - Contacto Agregado 2223178965
+INFO - 2021-01-23 12:43:00.007941 - Espera de envio de WhatsApp de 20
+INFO - 2021-01-23 12:43:20.021306 - Telefono recibido 2223178965
+INFO - 2021-01-23 12:43:20.023531 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 12:43:20.026688 - Mensaje de WhatsApp # 118
+INFO - 2021-01-23 12:43:20.029538 - Datos enviados al servicio custom_uid=prue3-118&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Prueba
+INFO - 2021-01-23 12:43:20.925098 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 12:43:20.927252 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-118"}
+INFO - 2021-01-23 12:43:28.910034 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 12:43:31.998707 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 12:43:37.419951 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 12:43:37.421554 - <googleapiclient.discovery.Resource object at 0xb121ab30>
+INFO - 2021-01-23 12:43:38.456190 - Contacto Agregado 7971109731
+INFO - 2021-01-23 12:43:38.458269 - Espera de envio de WhatsApp de 32
+INFO - 2021-01-23 12:44:10.491411 - Telefono recibido 7971109731
+INFO - 2021-01-23 12:44:10.493409 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 12:44:10.497253 - Mensaje de WhatsApp # 119
+INFO - 2021-01-23 12:44:10.500145 - Datos enviados al servicio custom_uid=prue3-119&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 12:44:11.256341 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 12:44:11.258931 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-119"}
+ERROR - 2021-01-23 12:44:32.063218 - Ocurrio un error 'ascii' codec can't encode character u'\xe1' in position 174: ordinal not in range(128)
+INFO - 2021-01-23 12:44:51.776678 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 12:44:51.872494 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 12:44:54.427867 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 12:44:57.000475 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 12:45:10.548667 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 12:45:10.550685 - <googleapiclient.discovery.Resource object at 0xb121ab30>
+INFO - 2021-01-23 12:45:11.511817 - Contacto Agregado 7971109731
+INFO - 2021-01-23 12:45:11.513512 - Espera de envio de WhatsApp de 22
+INFO - 2021-01-23 12:45:33.531171 - Telefono recibido 7971109731
+INFO - 2021-01-23 12:45:33.532823 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 12:45:33.534913 - Mensaje de WhatsApp # 120
+INFO - 2021-01-23 12:45:33.537683 - Datos enviados al servicio custom_uid=prue3-120&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 12:45:34.299761 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 12:45:34.301587 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-120"}
+ERROR - 2021-01-23 12:46:20.698302 - Ocurrio un error 'ascii' codec can't encode character u'\xe1' in position 174: ordinal not in range(128)
+INFO - 2021-01-23 12:46:25.054202 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 12:46:25.149691 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 12:46:27.674748 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 12:46:29.304399 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 12:46:32.483505 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 12:46:32.484387 - <googleapiclient.discovery.Resource object at 0xb121ab30>
+INFO - 2021-01-23 12:46:33.371308 - Contacto Agregado 7971109731
+INFO - 2021-01-23 12:46:33.373069 - Espera de envio de WhatsApp de 27
+INFO - 2021-01-23 12:47:00.401351 - Telefono recibido 7971109731
+INFO - 2021-01-23 12:47:00.403271 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 12:47:00.405941 - Mensaje de WhatsApp # 121
+INFO - 2021-01-23 12:47:00.408778 - Datos enviados al servicio custom_uid=prue3-121&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 12:47:01.161958 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 12:47:01.162857 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-121"}
+ERROR - 2021-01-23 12:48:17.271921 - Ocurrio un error 'ascii' codec can't encode character u'\xe1' in position 174: ordinal not in range(128)
+INFO - 2021-01-23 12:48:20.664235 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 12:48:20.760790 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:03:28.064584 - People Google iniciado
+INFO - 2021-01-23 13:03:28.812204 - Base de Datos conectada
+INFO - 2021-01-23 13:03:28.812706 - WhatsApp iniciado
+INFO - 2021-01-23 13:03:28.813104 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 13:03:28.813535 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 13:03:28.813446&chat_id=-429562103
+INFO - 2021-01-23 13:03:29.449500 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 13:03:29.516566 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:03:29.516940 - Enviado mensajes de prueba
+INFO - 2021-01-23 13:03:29.517185 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 13:03:29.517459 - <googleapiclient.discovery.Resource object at 0xb4ddf610>
+INFO - 2021-01-23 13:03:30.606619 - Contacto Agregado 5554374058
+INFO - 2021-01-23 13:03:30.607258 - Espera de envio de WhatsApp de 25
+INFO - 2021-01-23 13:08:32.998805 - People Google iniciado
+INFO - 2021-01-23 13:08:34.505860 - Base de Datos conectada
+INFO - 2021-01-23 13:08:35.193663 - WhatsApp iniciado
+INFO - 2021-01-23 13:08:36.694834 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 13:08:37.913638 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 13:08:37.913037&chat_id=-429562103
+INFO - 2021-01-23 13:08:42.253703 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 13:08:42.317001 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:08:46.716745 - Enviado mensajes de prueba
+INFO - 2021-01-23 13:08:46.718201 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 13:08:46.722276 - <googleapiclient.discovery.Resource object at 0xb0a1a950>
+INFO - 2021-01-23 13:08:48.010181 - Contacto Agregado 5554374058
+INFO - 2021-01-23 13:08:48.012142 - Espera de envio de WhatsApp de 30
+INFO - 2021-01-23 13:09:18.035793 - Telefono recibido 5554374058
+INFO - 2021-01-23 13:09:18.036610 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 13:09:18.037743 - Mensaje de WhatsApp # 122
+INFO - 2021-01-23 13:09:18.039192 - Datos enviados al servicio custom_uid=prue3-122&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A09%3A18.035372+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:09:18.793619 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 13:09:18.795769 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-122"}
+INFO - 2021-01-23 13:09:18.797460 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 13:09:18.799056 - <googleapiclient.discovery.Resource object at 0xb0a1a950>
+INFO - 2021-01-23 13:09:19.737793 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:09:19.746565 - Espera de envio de WhatsApp de 23
+INFO - 2021-01-23 13:09:42.766002 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:09:42.767581 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:09:42.769462 - Mensaje de WhatsApp # 123
+INFO - 2021-01-23 13:09:42.772661 - Datos enviados al servicio custom_uid=prue3-123&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A09%3A42.765421+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:09:43.503286 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:09:43.505867 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-123"}
+INFO - 2021-01-23 13:09:43.508546 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 13:09:43.510638 - <googleapiclient.discovery.Resource object at 0xb0a1a950>
+INFO - 2021-01-23 13:09:44.596670 - Contacto Agregado 2223178965
+INFO - 2021-01-23 13:09:44.598088 - Espera de envio de WhatsApp de 17
+INFO - 2021-01-23 13:10:01.616169 - Telefono recibido 2223178965
+INFO - 2021-01-23 13:10:01.617709 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 13:10:01.619548 - Mensaje de WhatsApp # 124
+INFO - 2021-01-23 13:10:01.622049 - Datos enviados al servicio custom_uid=prue3-124&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A10%3A01.615574+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:10:02.758718 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 13:10:02.760427 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-124"}
+INFO - 2021-01-23 13:10:36.404057 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 13:10:38.955946 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 13:10:41.543094 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 13:10:41.545712 - <googleapiclient.discovery.Resource object at 0xb0a1a950>
+INFO - 2021-01-23 13:10:42.490195 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:10:42.492014 - Espera de envio de WhatsApp de 32
+INFO - 2021-01-23 13:11:14.526140 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:11:14.527921 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:11:14.529913 - Mensaje de WhatsApp # 125
+INFO - 2021-01-23 13:11:14.532640 - Datos enviados al servicio custom_uid=prue3-125&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 13:11:15.280966 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:11:15.282960 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-125"}
+INFO - 2021-01-23 13:13:31.888440 - People Google iniciado
+INFO - 2021-01-23 13:13:32.876453 - Base de Datos conectada
+INFO - 2021-01-23 13:13:32.877968 - WhatsApp iniciado
+INFO - 2021-01-23 13:13:32.879179 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 13:13:32.880713 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 13:13:32.880251&chat_id=-429562103
+INFO - 2021-01-23 13:13:33.616228 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 13:13:33.718923 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:14:07.167738 - Enviado mensajes de prueba
+INFO - 2021-01-23 13:14:07.168886 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 13:14:07.171514 - <googleapiclient.discovery.Resource object at 0xb1277990>
+INFO - 2021-01-23 13:14:08.230718 - Contacto Agregado 5554374058
+INFO - 2021-01-23 13:14:08.232119 - Espera de envio de WhatsApp de 32
+INFO - 2021-01-23 13:14:40.255941 - Telefono recibido 5554374058
+INFO - 2021-01-23 13:14:40.257094 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 13:14:40.258668 - Mensaje de WhatsApp # 126
+INFO - 2021-01-23 13:14:40.260941 - Datos enviados al servicio custom_uid=prue3-126&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A14%3A40.255374+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:14:41.007672 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 13:14:41.008839 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-126"}
+INFO - 2021-01-23 13:14:41.009922 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 13:14:41.011462 - <googleapiclient.discovery.Resource object at 0xb1277990>
+INFO - 2021-01-23 13:14:42.004017 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:14:42.005105 - Espera de envio de WhatsApp de 28
+INFO - 2021-01-23 13:15:10.025636 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:15:10.026808 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:15:10.028224 - Mensaje de WhatsApp # 127
+INFO - 2021-01-23 13:15:10.030231 - Datos enviados al servicio custom_uid=prue3-127&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A15%3A10.025354+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:15:10.766494 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:15:10.768313 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-127"}
+INFO - 2021-01-23 13:15:10.770016 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 13:15:10.771531 - <googleapiclient.discovery.Resource object at 0xb1277990>
+INFO - 2021-01-23 13:15:11.831515 - Contacto Agregado 2223178965
+INFO - 2021-01-23 13:15:11.832470 - Espera de envio de WhatsApp de 30
+INFO - 2021-01-23 13:15:41.855611 - Telefono recibido 2223178965
+INFO - 2021-01-23 13:15:41.856558 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 13:15:41.857673 - Mensaje de WhatsApp # 128
+INFO - 2021-01-23 13:15:41.859311 - Datos enviados al servicio custom_uid=prue3-128&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A15%3A41.855369+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:15:42.589232 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 13:15:42.590913 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-128"}
+INFO - 2021-01-23 13:15:42.592883 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 13:15:42.701112 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 13:15:49.021430 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 13:15:49.022362 - <googleapiclient.discovery.Resource object at 0xb1277990>
+INFO - 2021-01-23 13:15:49.905716 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:15:49.906669 - Espera de envio de WhatsApp de 23
+INFO - 2021-01-23 13:16:12.925962 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:16:12.927423 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:16:12.929046 - Mensaje de WhatsApp # 129
+INFO - 2021-01-23 13:16:12.931331 - Datos enviados al servicio custom_uid=prue3-129&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 13:16:13.667725 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:16:13.669499 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-129"}
+INFO - 2021-01-23 13:18:31.311724 - People Google iniciado
+INFO - 2021-01-23 13:18:32.924435 - Base de Datos conectada
+INFO - 2021-01-23 13:18:32.926033 - WhatsApp iniciado
+INFO - 2021-01-23 13:18:32.927184 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 13:18:32.928572 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 13:18:32.928168&chat_id=-429562103
+INFO - 2021-01-23 13:18:33.722488 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 13:18:33.817801 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:18:36.772866 - Enviado mensajes de prueba
+INFO - 2021-01-23 13:18:36.774722 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 13:18:36.776209 - <googleapiclient.discovery.Resource object at 0xb11b7690>
+INFO - 2021-01-23 13:18:38.019217 - Contacto Agregado 5554374058
+INFO - 2021-01-23 13:18:38.021042 - Espera de envio de WhatsApp de 6
+INFO - 2021-01-23 13:18:44.028303 - Telefono recibido 5554374058
+INFO - 2021-01-23 13:18:44.029381 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 13:18:44.031525 - Mensaje de WhatsApp # 130
+INFO - 2021-01-23 13:18:44.033880 - Datos enviados al servicio custom_uid=prue3-130&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A18%3A44.027799+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:18:44.792126 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 13:18:44.794098 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-130"}
+INFO - 2021-01-23 13:18:44.795743 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 13:18:44.797123 - <googleapiclient.discovery.Resource object at 0xb11b7690>
+INFO - 2021-01-23 13:18:45.843192 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:18:45.844948 - Espera de envio de WhatsApp de 7
+INFO - 2021-01-23 13:18:52.854183 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:18:52.855219 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:18:52.856600 - Mensaje de WhatsApp # 131
+INFO - 2021-01-23 13:18:52.858382 - Datos enviados al servicio custom_uid=prue3-131&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A18%3A52.853927+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:18:53.581601 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:18:53.583009 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-131"}
+INFO - 2021-01-23 13:18:53.584230 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 13:18:53.585578 - <googleapiclient.discovery.Resource object at 0xb11b7690>
+INFO - 2021-01-23 13:18:54.705213 - Contacto Agregado 2223178965
+INFO - 2021-01-23 13:18:54.706572 - Espera de envio de WhatsApp de 9
+INFO - 2021-01-23 13:19:03.715685 - Telefono recibido 2223178965
+INFO - 2021-01-23 13:19:03.716854 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 13:19:03.718194 - Mensaje de WhatsApp # 132
+INFO - 2021-01-23 13:19:03.720196 - Datos enviados al servicio custom_uid=prue3-132&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A19%3A03.715399+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:19:04.440691 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 13:19:04.441395 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-132"}
+INFO - 2021-01-23 13:19:04.442365 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 13:19:04.540196 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 13:19:09.966668 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 13:19:09.967776 - <googleapiclient.discovery.Resource object at 0xb11b7690>
+INFO - 2021-01-23 13:19:11.544753 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:19:11.546636 - Espera de envio de WhatsApp de 8
+INFO - 2021-01-23 13:19:19.555963 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:19:19.557377 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:19:19.559125 - Mensaje de WhatsApp # 133
+INFO - 2021-01-23 13:19:19.561371 - Datos enviados al servicio custom_uid=prue3-133&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 13:19:20.277351 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:19:20.278286 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-133"}
+INFO - 2021-01-23 13:22:34.765006 - People Google iniciado
+INFO - 2021-01-23 13:22:35.776403 - Base de Datos conectada
+INFO - 2021-01-23 13:22:35.777768 - WhatsApp iniciado
+INFO - 2021-01-23 13:22:35.778849 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 13:22:35.780355 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 13:22:35.779970&chat_id=-429562103
+INFO - 2021-01-23 13:22:36.468053 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 13:22:36.562603 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:22:38.006360 - Enviado mensajes de prueba
+INFO - 2021-01-23 13:22:38.006946 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 13:22:38.007680 - <googleapiclient.discovery.Resource object at 0xb12496f0>
+INFO - 2021-01-23 13:22:39.007384 - Contacto Agregado 5554374058
+INFO - 2021-01-23 13:22:39.008747 - Espera de envio de WhatsApp de 6
+INFO - 2021-01-23 13:22:45.017355 - Telefono recibido 5554374058
+INFO - 2021-01-23 13:22:45.018695 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 13:22:45.020503 - Mensaje de WhatsApp # 134
+INFO - 2021-01-23 13:22:45.023662 - Datos enviados al servicio custom_uid=prue3-134&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A22%3A45.016820+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:22:45.811202 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 13:22:45.813504 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-134"}
+INFO - 2021-01-23 13:22:45.814713 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 13:22:45.815971 - <googleapiclient.discovery.Resource object at 0xb12496f0>
+INFO - 2021-01-23 13:22:46.959601 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:22:46.961894 - Espera de envio de WhatsApp de 8
+INFO - 2021-01-23 13:22:54.971528 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:22:54.972666 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:22:54.975469 - Mensaje de WhatsApp # 135
+INFO - 2021-01-23 13:22:54.977621 - Datos enviados al servicio custom_uid=prue3-135&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A22%3A54.971264+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:22:55.756766 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:22:55.758058 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-135"}
+INFO - 2021-01-23 13:22:55.759471 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 13:22:55.760617 - <googleapiclient.discovery.Resource object at 0xb12496f0>
+INFO - 2021-01-23 13:22:56.790736 - Contacto Agregado 2223178965
+INFO - 2021-01-23 13:22:56.791543 - Espera de envio de WhatsApp de 10
+INFO - 2021-01-23 13:23:06.795599 - Telefono recibido 2223178965
+INFO - 2021-01-23 13:23:06.796767 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 13:23:06.798063 - Mensaje de WhatsApp # 136
+INFO - 2021-01-23 13:23:06.799959 - Datos enviados al servicio custom_uid=prue3-136&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A23%3A06.795319+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:23:07.540564 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 13:23:07.541725 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-136"}
+INFO - 2021-01-23 13:23:07.543256 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 13:23:07.639179 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 13:23:12.068920 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 13:23:12.069837 - <googleapiclient.discovery.Resource object at 0xb12496f0>
+INFO - 2021-01-23 13:23:13.041315 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:23:13.042226 - Espera de envio de WhatsApp de 7
+INFO - 2021-01-23 13:23:20.045900 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:23:20.047066 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:23:20.048405 - Mensaje de WhatsApp # 137
+INFO - 2021-01-23 13:23:20.050204 - Datos enviados al servicio custom_uid=prue3-137&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 13:23:20.818789 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:23:20.820479 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-137"}
+INFO - 2021-01-23 13:25:59.386576 - People Google iniciado
+INFO - 2021-01-23 13:26:00.427182 - Base de Datos conectada
+INFO - 2021-01-23 13:26:00.428197 - WhatsApp iniciado
+INFO - 2021-01-23 13:26:00.429175 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 13:26:00.430251 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 13:26:00.429949&chat_id=-429562103
+INFO - 2021-01-23 13:26:01.123701 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 13:26:01.217918 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:26:18.778047 - Enviado mensajes de prueba
+INFO - 2021-01-23 13:26:18.778652 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 13:26:18.779539 - <googleapiclient.discovery.Resource object at 0xb12588d0>
+INFO - 2021-01-23 13:26:19.789052 - Contacto Agregado 5554374058
+INFO - 2021-01-23 13:26:19.791683 - Espera de envio de WhatsApp de 9
+INFO - 2021-01-23 13:26:28.796013 - Telefono recibido 5554374058
+INFO - 2021-01-23 13:26:28.797308 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 13:26:28.799695 - Mensaje de WhatsApp # 138
+INFO - 2021-01-23 13:26:28.802685 - Datos enviados al servicio custom_uid=prue3-138&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A26%3A28.795347+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:26:29.576133 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 13:26:29.577875 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-138"}
+INFO - 2021-01-23 13:26:29.579680 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 13:26:29.581160 - <googleapiclient.discovery.Resource object at 0xb12588d0>
+INFO - 2021-01-23 13:26:30.784842 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:26:30.785589 - Espera de envio de WhatsApp de 7
+INFO - 2021-01-23 13:26:37.793540 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:26:37.794745 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:26:37.796217 - Mensaje de WhatsApp # 139
+INFO - 2021-01-23 13:26:37.798142 - Datos enviados al servicio custom_uid=prue3-139&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A26%3A37.793256+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:26:38.534866 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:26:38.537081 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-139"}
+INFO - 2021-01-23 13:26:38.538808 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 13:26:38.540571 - <googleapiclient.discovery.Resource object at 0xb12588d0>
+INFO - 2021-01-23 13:26:39.396427 - Contacto Agregado 2223178965
+INFO - 2021-01-23 13:26:39.398471 - Espera de envio de WhatsApp de 6
+INFO - 2021-01-23 13:26:45.405698 - Telefono recibido 2223178965
+INFO - 2021-01-23 13:26:45.406887 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 13:26:45.408175 - Mensaje de WhatsApp # 140
+INFO - 2021-01-23 13:26:45.410032 - Datos enviados al servicio custom_uid=prue3-140&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A26%3A45.405410+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:26:46.167883 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 13:26:46.168573 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-140"}
+INFO - 2021-01-23 13:26:46.169544 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 13:26:46.264604 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 13:27:09.550891 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 13:27:09.553939 - <googleapiclient.discovery.Resource object at 0xb12588d0>
+INFO - 2021-01-23 13:27:10.416237 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:27:10.417583 - Espera de envio de WhatsApp de 6
+INFO - 2021-01-23 13:27:16.424959 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:27:16.425820 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:27:16.426810 - Mensaje de WhatsApp # 141
+INFO - 2021-01-23 13:27:16.428120 - Datos enviados al servicio custom_uid=prue3-141&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 13:27:17.192706 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:27:17.194725 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-141"}
+INFO - 2021-01-23 13:28:11.959189 - People Google iniciado
+INFO - 2021-01-23 13:28:12.947539 - Base de Datos conectada
+INFO - 2021-01-23 13:28:12.948796 - WhatsApp iniciado
+INFO - 2021-01-23 13:28:12.949868 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 13:28:12.951135 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 13:28:12.950764&chat_id=-429562103
+INFO - 2021-01-23 13:28:13.662784 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 13:28:13.757211 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:28:15.504581 - Enviado mensajes de prueba
+INFO - 2021-01-23 13:28:15.505172 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 13:28:15.506006 - <googleapiclient.discovery.Resource object at 0xb1294690>
+INFO - 2021-01-23 13:28:16.730729 - Contacto Agregado 5554374058
+INFO - 2021-01-23 13:28:16.732460 - Espera de envio de WhatsApp de 7
+INFO - 2021-01-23 13:28:23.735943 - Telefono recibido 5554374058
+INFO - 2021-01-23 13:28:23.737121 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 13:28:23.738953 - Mensaje de WhatsApp # 142
+INFO - 2021-01-23 13:28:23.741237 - Datos enviados al servicio custom_uid=prue3-142&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A28%3A23.735380+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:28:24.516273 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 13:28:24.517597 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-142"}
+INFO - 2021-01-23 13:28:24.518763 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 13:28:24.519777 - <googleapiclient.discovery.Resource object at 0xb1294690>
+INFO - 2021-01-23 13:28:25.557969 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:28:25.558986 - Espera de envio de WhatsApp de 6
+INFO - 2021-01-23 13:28:31.565646 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:28:31.566795 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:28:31.568105 - Mensaje de WhatsApp # 143
+INFO - 2021-01-23 13:28:31.569925 - Datos enviados al servicio custom_uid=prue3-143&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A28%3A31.565340+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:28:32.310783 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:28:32.311553 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-143"}
+INFO - 2021-01-23 13:28:32.312283 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 13:28:32.312899 - <googleapiclient.discovery.Resource object at 0xb1294690>
+INFO - 2021-01-23 13:28:33.129773 - Contacto Agregado 2223178965
+INFO - 2021-01-23 13:28:33.131381 - Espera de envio de WhatsApp de 10
+INFO - 2021-01-23 13:28:43.143068 - Telefono recibido 2223178965
+INFO - 2021-01-23 13:28:43.144154 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 13:28:43.145727 - Mensaje de WhatsApp # 144
+INFO - 2021-01-23 13:28:43.147468 - Datos enviados al servicio custom_uid=prue3-144&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A28%3A43.142817+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:28:43.907505 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 13:28:43.912166 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-144"}
+INFO - 2021-01-23 13:28:43.914062 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 13:28:44.014073 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 13:28:53.349705 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 13:28:53.351758 - <googleapiclient.discovery.Resource object at 0xb1294690>
+INFO - 2021-01-23 13:28:54.483362 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:28:54.486422 - Espera de envio de WhatsApp de 5
+INFO - 2021-01-23 13:28:59.493370 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:28:59.494981 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:28:59.497843 - Mensaje de WhatsApp # 145
+INFO - 2021-01-23 13:28:59.501689 - Datos enviados al servicio custom_uid=prue3-145&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 13:29:00.267375 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:29:00.268372 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-145"}
+INFO - 2021-01-23 13:31:51.288024 - People Google iniciado
+INFO - 2021-01-23 13:31:52.335641 - Base de Datos conectada
+INFO - 2021-01-23 13:31:52.337345 - WhatsApp iniciado
+INFO - 2021-01-23 13:31:52.338785 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 13:31:52.340545 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 13:31:52.340027&chat_id=-429562103
+INFO - 2021-01-23 13:31:53.035650 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 13:31:53.131879 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:31:56.310814 - Enviado mensajes de prueba
+INFO - 2021-01-23 13:31:56.311417 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 13:31:56.312803 - <googleapiclient.discovery.Resource object at 0xb12af4f0>
+INFO - 2021-01-23 13:31:57.476485 - Contacto Agregado 5554374058
+INFO - 2021-01-23 13:31:57.479216 - Espera de envio de WhatsApp de 8
+INFO - 2021-01-23 13:32:05.486049 - Telefono recibido 5554374058
+INFO - 2021-01-23 13:32:05.487081 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 13:32:05.488563 - Mensaje de WhatsApp # 146
+INFO - 2021-01-23 13:32:05.490614 - Datos enviados al servicio custom_uid=prue3-146&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A32%3A05.485547+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:32:06.265354 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 13:32:06.266490 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-146"}
+INFO - 2021-01-23 13:32:06.267480 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 13:32:06.268413 - <googleapiclient.discovery.Resource object at 0xb12af4f0>
+INFO - 2021-01-23 13:32:07.345912 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:32:07.347180 - Espera de envio de WhatsApp de 7
+INFO - 2021-01-23 13:32:14.355568 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:32:14.356628 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:32:14.358010 - Mensaje de WhatsApp # 147
+INFO - 2021-01-23 13:32:14.359894 - Datos enviados al servicio custom_uid=prue3-147&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A32%3A14.355327+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:32:15.118367 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:32:15.125640 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-147"}
+INFO - 2021-01-23 13:32:15.132202 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 13:32:15.133944 - <googleapiclient.discovery.Resource object at 0xb12af4f0>
+INFO - 2021-01-23 13:32:16.184598 - Contacto Agregado 2223178965
+INFO - 2021-01-23 13:32:16.186085 - Espera de envio de WhatsApp de 9
+INFO - 2021-01-23 13:32:25.195585 - Telefono recibido 2223178965
+INFO - 2021-01-23 13:32:25.196844 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 13:32:25.198122 - Mensaje de WhatsApp # 148
+INFO - 2021-01-23 13:32:25.200051 - Datos enviados al servicio custom_uid=prue3-148&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A32%3A25.195309+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:32:25.957119 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 13:32:25.958493 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-148"}
+INFO - 2021-01-23 13:32:25.960109 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 13:32:26.057235 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 13:33:36.713707 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 13:33:36.715015 - <googleapiclient.discovery.Resource object at 0xb12af4f0>
+INFO - 2021-01-23 13:33:37.714144 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:33:37.715502 - Espera de envio de WhatsApp de 5
+INFO - 2021-01-23 13:33:42.722272 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:33:42.724115 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:33:42.726004 - Mensaje de WhatsApp # 149
+INFO - 2021-01-23 13:33:42.729259 - Datos enviados al servicio custom_uid=prue3-149&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 13:33:43.500008 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:33:43.501819 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-149"}
+ERROR - 2021-01-23 13:34:39.022821 - Ocurrio un error 'ascii' codec can't encode character u'\xe1' in position 174: ordinal not in range(128)
+INFO - 2021-01-23 13:37:58.653115 - People Google iniciado
+INFO - 2021-01-23 13:37:59.320803 - Base de Datos conectada
+INFO - 2021-01-23 13:37:59.322219 - WhatsApp iniciado
+INFO - 2021-01-23 13:37:59.323535 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 13:37:59.325126 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 13:37:59.324584&chat_id=-429562103
+INFO - 2021-01-23 13:38:00.055644 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 13:38:00.124195 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:38:06.298503 - Enviado mensajes de prueba
+INFO - 2021-01-23 13:38:06.301870 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 13:38:06.305192 - <googleapiclient.discovery.Resource object at 0xb11db430>
+INFO - 2021-01-23 13:38:07.529366 - Contacto Agregado 5554374058
+INFO - 2021-01-23 13:38:07.531527 - Espera de envio de WhatsApp de 6
+INFO - 2021-01-23 13:38:13.539245 - Telefono recibido 5554374058
+INFO - 2021-01-23 13:38:13.540436 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 13:38:13.541830 - Mensaje de WhatsApp # 150
+INFO - 2021-01-23 13:38:13.543774 - Datos enviados al servicio custom_uid=prue3-150&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A38%3A13.538691+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:38:14.323961 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 13:38:14.324645 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-150"}
+INFO - 2021-01-23 13:38:14.325226 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 13:38:14.325966 - <googleapiclient.discovery.Resource object at 0xb11db430>
+INFO - 2021-01-23 13:38:15.367382 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:38:15.370485 - Espera de envio de WhatsApp de 10
+INFO - 2021-01-23 13:38:25.375577 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:38:25.376613 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:38:25.377754 - Mensaje de WhatsApp # 151
+INFO - 2021-01-23 13:38:25.379557 - Datos enviados al servicio custom_uid=prue3-151&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A38%3A25.375316+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:38:26.139654 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:38:26.141326 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-151"}
+INFO - 2021-01-23 13:38:26.143245 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 13:38:26.144830 - <googleapiclient.discovery.Resource object at 0xb11db430>
+INFO - 2021-01-23 13:38:27.226268 - Contacto Agregado 2223178965
+INFO - 2021-01-23 13:38:27.228332 - Espera de envio de WhatsApp de 6
+INFO - 2021-01-23 13:38:33.235775 - Telefono recibido 2223178965
+INFO - 2021-01-23 13:38:33.236930 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 13:38:33.238215 - Mensaje de WhatsApp # 152
+INFO - 2021-01-23 13:38:33.240145 - Datos enviados al servicio custom_uid=prue3-152&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A38%3A33.235493+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:38:34.046645 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 13:38:34.048449 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-152"}
+INFO - 2021-01-23 13:38:34.050531 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 13:38:34.129177 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 13:38:50.354469 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 13:38:50.356029 - <googleapiclient.discovery.Resource object at 0xb11db430>
+INFO - 2021-01-23 13:38:51.356051 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:38:51.358816 - Espera de envio de WhatsApp de 7
+INFO - 2021-01-23 13:38:58.365676 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:38:58.366495 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:38:58.367525 - Mensaje de WhatsApp # 153
+INFO - 2021-01-23 13:38:58.368842 - Datos enviados al servicio custom_uid=prue3-153&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 13:38:59.124457 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:38:59.126228 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-153"}
+ERROR - 2021-01-23 13:39:32.162430 - Ocurrio un error 'ascii' codec can't encode character u'\xe1' in position 177: ordinal not in range(128)
+INFO - 2021-01-23 13:40:19.782062 - People Google iniciado
+INFO - 2021-01-23 13:40:20.790707 - Base de Datos conectada
+INFO - 2021-01-23 13:40:20.792101 - WhatsApp iniciado
+INFO - 2021-01-23 13:40:20.793218 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 13:40:20.794549 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 13:40:20.794154&chat_id=-429562103
+INFO - 2021-01-23 13:40:21.530187 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 13:40:21.637033 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:40:37.496551 - Enviado mensajes de prueba
+INFO - 2021-01-23 13:40:37.501036 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 13:40:37.508139 - <googleapiclient.discovery.Resource object at 0xb1288410>
+INFO - 2021-01-23 13:40:38.981427 - Contacto Agregado 5554374058
+INFO - 2021-01-23 13:40:38.983891 - Espera de envio de WhatsApp de 5
+INFO - 2021-01-23 13:40:43.987819 - Telefono recibido 5554374058
+INFO - 2021-01-23 13:40:43.989414 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 13:40:43.991588 - Mensaje de WhatsApp # 154
+INFO - 2021-01-23 13:40:43.994356 - Datos enviados al servicio custom_uid=prue3-154&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A40%3A43.986950+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:40:44.753233 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 13:40:44.754515 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-154"}
+INFO - 2021-01-23 13:40:44.755861 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 13:40:44.756836 - <googleapiclient.discovery.Resource object at 0xb1288410>
+INFO - 2021-01-23 13:40:45.738274 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:40:45.739738 - Espera de envio de WhatsApp de 6
+INFO - 2021-01-23 13:40:51.746837 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:40:51.748811 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:40:51.751447 - Mensaje de WhatsApp # 155
+INFO - 2021-01-23 13:40:51.754780 - Datos enviados al servicio custom_uid=prue3-155&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A40%3A51.746173+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:40:52.506397 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:40:52.507294 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-155"}
+INFO - 2021-01-23 13:40:52.508191 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 13:40:52.509039 - <googleapiclient.discovery.Resource object at 0xb1288410>
+INFO - 2021-01-23 13:40:53.542907 - Contacto Agregado 2223178965
+INFO - 2021-01-23 13:40:53.546198 - Espera de envio de WhatsApp de 6
+INFO - 2021-01-23 13:40:59.554975 - Telefono recibido 2223178965
+INFO - 2021-01-23 13:40:59.556486 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 13:40:59.558131 - Mensaje de WhatsApp # 156
+INFO - 2021-01-23 13:40:59.561258 - Datos enviados al servicio custom_uid=prue3-156&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A40%3A59.554449+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:41:00.328216 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 13:41:00.329229 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-156"}
+INFO - 2021-01-23 13:42:13.954812 - People Google iniciado
+INFO - 2021-01-23 13:42:14.966496 - Base de Datos conectada
+INFO - 2021-01-23 13:42:14.968659 - WhatsApp iniciado
+INFO - 2021-01-23 13:42:14.971125 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 13:42:14.973164 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 13:42:14.972555&chat_id=-429562103
+INFO - 2021-01-23 13:42:15.664646 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 13:42:15.768617 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:42:36.174715 - Enviado mensajes de prueba
+INFO - 2021-01-23 13:42:36.176077 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 13:42:36.177657 - <googleapiclient.discovery.Resource object at 0xb0929430>
+INFO - 2021-01-23 13:42:37.688513 - Contacto Agregado 5554374058
+INFO - 2021-01-23 13:42:37.691089 - Espera de envio de WhatsApp de 7
+INFO - 2021-01-23 13:42:44.695739 - Telefono recibido 5554374058
+INFO - 2021-01-23 13:42:44.696343 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 13:42:44.697328 - Mensaje de WhatsApp # 157
+INFO - 2021-01-23 13:42:44.698537 - Datos enviados al servicio custom_uid=prue3-157&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A42%3A44.695410+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:42:45.463135 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 13:42:45.464504 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-157"}
+INFO - 2021-01-23 13:42:45.466415 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 13:42:45.468191 - <googleapiclient.discovery.Resource object at 0xb0929430>
+INFO - 2021-01-23 13:42:46.520942 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:42:46.521593 - Espera de envio de WhatsApp de 5
+INFO - 2021-01-23 13:42:51.525726 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:42:51.527326 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:42:51.529452 - Mensaje de WhatsApp # 158
+INFO - 2021-01-23 13:42:51.532056 - Datos enviados al servicio custom_uid=prue3-158&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A42%3A51.525366+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:42:52.279153 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:42:52.280697 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-158"}
+INFO - 2021-01-23 13:42:52.282667 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 13:42:52.283978 - <googleapiclient.discovery.Resource object at 0xb0929430>
+INFO - 2021-01-23 13:42:53.280293 - Contacto Agregado 2223178965
+INFO - 2021-01-23 13:42:53.281670 - Espera de envio de WhatsApp de 10
+INFO - 2021-01-23 13:43:03.285692 - Telefono recibido 2223178965
+INFO - 2021-01-23 13:43:03.287234 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 13:43:03.288699 - Mensaje de WhatsApp # 159
+INFO - 2021-01-23 13:43:03.290776 - Datos enviados al servicio custom_uid=prue3-159&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A43%3A03.285361+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:43:04.052769 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 13:43:04.054379 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-159"}
+INFO - 2021-01-23 13:43:04.056390 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 13:43:04.164602 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 13:43:12.140200 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 13:43:12.141747 - <googleapiclient.discovery.Resource object at 0xb0929430>
+INFO - 2021-01-23 13:43:13.127628 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:43:13.130938 - Espera de envio de WhatsApp de 5
+INFO - 2021-01-23 13:43:18.138298 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:43:18.139893 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:43:18.142857 - Mensaje de WhatsApp # 160
+INFO - 2021-01-23 13:43:18.146593 - Datos enviados al servicio custom_uid=prue3-160&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 13:43:18.888345 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:43:18.889228 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-160"}
+INFO - 2021-01-23 13:47:51.598070 - People Google iniciado
+INFO - 2021-01-23 13:47:52.689561 - Base de Datos conectada
+INFO - 2021-01-23 13:47:52.691221 - WhatsApp iniciado
+INFO - 2021-01-23 13:47:52.692681 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 13:47:52.695560 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 13:47:52.694693&chat_id=-429562103
+INFO - 2021-01-23 13:47:53.378240 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 13:47:53.477104 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:48:00.183702 - Enviado mensajes de prueba
+INFO - 2021-01-23 13:48:00.185059 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 13:48:00.186685 - <googleapiclient.discovery.Resource object at 0xb11f6410>
+INFO - 2021-01-23 13:48:01.389518 - Contacto Agregado 5554374058
+INFO - 2021-01-23 13:48:01.391191 - Espera de envio de WhatsApp de 10
+INFO - 2021-01-23 13:48:11.395932 - Telefono recibido 5554374058
+INFO - 2021-01-23 13:48:11.397085 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 13:48:11.398760 - Mensaje de WhatsApp # 161
+INFO - 2021-01-23 13:48:11.401296 - Datos enviados al servicio custom_uid=prue3-161&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A48%3A11.395350+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:48:12.197703 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 13:48:12.198854 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-161"}
+INFO - 2021-01-23 13:48:12.199884 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 13:48:12.200890 - <googleapiclient.discovery.Resource object at 0xb11f6410>
+INFO - 2021-01-23 13:48:13.320140 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:48:13.321475 - Espera de envio de WhatsApp de 6
+INFO - 2021-01-23 13:48:19.325629 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:48:19.326796 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:48:19.328167 - Mensaje de WhatsApp # 162
+INFO - 2021-01-23 13:48:19.330231 - Datos enviados al servicio custom_uid=prue3-162&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A48%3A19.325339+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:48:20.088275 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:48:20.089565 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-162"}
+INFO - 2021-01-23 13:48:20.090830 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 13:48:20.092148 - <googleapiclient.discovery.Resource object at 0xb11f6410>
+INFO - 2021-01-23 13:48:21.110700 - Contacto Agregado 2223178965
+INFO - 2021-01-23 13:48:21.112674 - Espera de envio de WhatsApp de 9
+INFO - 2021-01-23 13:48:30.115624 - Telefono recibido 2223178965
+INFO - 2021-01-23 13:48:30.116691 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 13:48:30.118022 - Mensaje de WhatsApp # 163
+INFO - 2021-01-23 13:48:30.120484 - Datos enviados al servicio custom_uid=prue3-163&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A48%3A30.115358+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:48:30.875479 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 13:48:30.876159 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-163"}
+INFO - 2021-01-23 13:48:30.877078 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 13:48:30.975031 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 13:48:36.874889 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 13:48:36.875819 - <googleapiclient.discovery.Resource object at 0xb11f6410>
+INFO - 2021-01-23 13:48:37.914335 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:48:37.916211 - Espera de envio de WhatsApp de 5
+INFO - 2021-01-23 13:48:42.923530 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:48:42.925063 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:48:42.926879 - Mensaje de WhatsApp # 164
+INFO - 2021-01-23 13:48:42.929098 - Datos enviados al servicio custom_uid=prue3-164&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 13:48:43.699723 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:48:43.701260 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-164"}
+INFO - 2021-01-23 13:48:51.016592 - INSERT INTO SmsWhatsapp (telefono, mensaje, fecha, Sucursal, fechaEnvio) values ('7971109731', 'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui 
+/bit.ly/39b747W
+ _-Aproveche en Enero Hemoglobina Glucosilada $168_ 
+*--Mensaje generado de manera automática favor de no contestar.* 
+_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', '2021-01-23 08:55:25.890000', 1, '2021-01-23 13:48:51')
+ERROR - 2021-01-23 13:48:51.122641 - Error Traceback (most recent call last):
+  File "/home/pi/gubiaSms/DAO.py", line 93, in agregar
+    cursor.execute(query)
+  File "src/pymssql.pyx", line 468, in pymssql.Cursor.execute
+OperationalError: (8152, 'String or binary data would be truncated.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+ agregando archivo de la tabla SmsWhatsapp 
+ERROR - 2021-01-23 13:48:53.957681 - Ocurrio un error Error Traceback (most recent call last):
+  File "/home/pi/gubiaSms/DAO.py", line 93, in agregar
+    cursor.execute(query)
+  File "src/pymssql.pyx", line 468, in pymssql.Cursor.execute
+OperationalError: (8152, 'String or binary data would be truncated.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+ agregando archivo de la tabla SmsWhatsapp 
+INFO - 2021-01-23 13:49:32.417434 - People Google iniciado
+INFO - 2021-01-23 13:49:33.074353 - Base de Datos conectada
+INFO - 2021-01-23 13:49:33.076012 - WhatsApp iniciado
+INFO - 2021-01-23 13:49:33.077148 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 13:49:33.078501 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 13:49:33.078107&chat_id=-429562103
+INFO - 2021-01-23 13:49:33.840843 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 13:49:33.903816 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:49:35.969518 - Enviado mensajes de prueba
+INFO - 2021-01-23 13:49:35.970640 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 13:49:35.973130 - <googleapiclient.discovery.Resource object at 0xb08963d0>
+INFO - 2021-01-23 13:49:37.191856 - Contacto Agregado 5554374058
+INFO - 2021-01-23 13:49:37.193685 - Espera de envio de WhatsApp de 9
+INFO - 2021-01-23 13:49:46.195978 - Telefono recibido 5554374058
+INFO - 2021-01-23 13:49:46.197323 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 13:49:46.200178 - Mensaje de WhatsApp # 165
+INFO - 2021-01-23 13:49:46.203209 - Datos enviados al servicio custom_uid=prue3-165&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A49%3A46.195370+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:49:46.982983 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 13:49:46.983661 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-165"}
+INFO - 2021-01-23 13:49:46.984265 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 13:49:46.985167 - <googleapiclient.discovery.Resource object at 0xb08963d0>
+INFO - 2021-01-23 13:49:48.031427 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:49:48.032523 - Espera de envio de WhatsApp de 8
+INFO - 2021-01-23 13:49:56.035569 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:49:56.036588 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:49:56.037771 - Mensaje de WhatsApp # 166
+INFO - 2021-01-23 13:49:56.039587 - Datos enviados al servicio custom_uid=prue3-166&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A49%3A56.035305+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:49:56.780554 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:49:56.782201 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-166"}
+INFO - 2021-01-23 13:49:56.783481 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 13:49:56.784685 - <googleapiclient.discovery.Resource object at 0xb08963d0>
+INFO - 2021-01-23 13:49:57.856954 - Contacto Agregado 2223178965
+INFO - 2021-01-23 13:49:57.859125 - Espera de envio de WhatsApp de 6
+INFO - 2021-01-23 13:50:03.865681 - Telefono recibido 2223178965
+INFO - 2021-01-23 13:50:03.866968 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 13:50:03.868635 - Mensaje de WhatsApp # 167
+INFO - 2021-01-23 13:50:03.871723 - Datos enviados al servicio custom_uid=prue3-167&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A50%3A03.865345+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:50:04.623634 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 13:50:04.624318 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-167"}
+INFO - 2021-01-23 13:50:04.625197 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 13:50:04.687801 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 13:50:09.103436 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 13:50:09.106290 - <googleapiclient.discovery.Resource object at 0xb08963d0>
+INFO - 2021-01-23 13:50:10.246945 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:50:10.248642 - Espera de envio de WhatsApp de 7
+INFO - 2021-01-23 13:50:17.255709 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:50:17.256530 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:50:17.257551 - Mensaje de WhatsApp # 168
+INFO - 2021-01-23 13:50:17.258865 - Datos enviados al servicio custom_uid=prue3-168&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 13:50:18.013640 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:50:18.016015 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-168"}
+INFO - 2021-01-23 13:51:00.411977 - INSERT INTO SmsWhatsapp (telefono, mensaje, fecha, Sucursal, fechaEnvio) values ('7971109731', 'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui 
+/bit.ly/39b747W
+ _-Aproveche en Enero Hemoglobina Glucosilada $168_ 
+*--Mensaje generado de manera automática favor de no contestar.* 
+_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', '2021-01-23 08:55:25.890000', 1, '2021-01-23 13:50:48')
+INFO - 2021-01-23 13:52:45.277716 - People Google iniciado
+INFO - 2021-01-23 13:52:46.287620 - Base de Datos conectada
+INFO - 2021-01-23 13:52:46.289034 - WhatsApp iniciado
+INFO - 2021-01-23 13:52:46.290625 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 13:52:46.292558 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 13:52:46.292159&chat_id=-429562103
+INFO - 2021-01-23 13:52:46.966728 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 13:52:47.069609 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 13:52:53.184003 - Enviado mensajes de prueba
+INFO - 2021-01-23 13:52:53.184601 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 13:52:53.185213 - <googleapiclient.discovery.Resource object at 0xb11b2550>
+INFO - 2021-01-23 13:52:54.337011 - Contacto Agregado 5554374058
+INFO - 2021-01-23 13:52:54.339510 - Espera de envio de WhatsApp de 8
+INFO - 2021-01-23 13:53:02.345919 - Telefono recibido 5554374058
+INFO - 2021-01-23 13:53:02.347085 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 13:53:02.348757 - Mensaje de WhatsApp # 169
+INFO - 2021-01-23 13:53:02.351023 - Datos enviados al servicio custom_uid=prue3-169&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A53%3A02.345337+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:53:03.149905 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 13:53:03.151063 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-169"}
+INFO - 2021-01-23 13:53:03.152141 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 13:53:03.153160 - <googleapiclient.discovery.Resource object at 0xb11b2550>
+INFO - 2021-01-23 13:53:04.235453 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:53:04.236728 - Espera de envio de WhatsApp de 9
+INFO - 2021-01-23 13:53:13.245551 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:53:13.246590 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:53:13.247731 - Mensaje de WhatsApp # 170
+INFO - 2021-01-23 13:53:13.249527 - Datos enviados al servicio custom_uid=prue3-170&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A53%3A13.245299+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:53:13.994786 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:53:13.996354 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-170"}
+INFO - 2021-01-23 13:53:13.997715 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 13:53:13.998824 - <googleapiclient.discovery.Resource object at 0xb11b2550>
+INFO - 2021-01-23 13:53:14.997397 - Contacto Agregado 2223178965
+INFO - 2021-01-23 13:53:14.998478 - Espera de envio de WhatsApp de 10
+INFO - 2021-01-23 13:53:25.005437 - Telefono recibido 2223178965
+INFO - 2021-01-23 13:53:25.006049 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 13:53:25.006729 - Mensaje de WhatsApp # 171
+INFO - 2021-01-23 13:53:25.007680 - Datos enviados al servicio custom_uid=prue3-171&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+13%3A53%3A25.005283+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 13:53:25.766138 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 13:53:25.767286 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-171"}
+INFO - 2021-01-23 13:53:25.769128 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 13:53:25.878005 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 13:53:33.204935 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 13:53:33.205853 - <googleapiclient.discovery.Resource object at 0xb11b2550>
+INFO - 2021-01-23 13:53:34.001248 - Contacto Agregado 7971109731
+INFO - 2021-01-23 13:53:34.002812 - Espera de envio de WhatsApp de 5
+INFO - 2021-01-23 13:53:39.005667 - Telefono recibido 7971109731
+INFO - 2021-01-23 13:53:39.006475 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 13:53:39.007358 - Mensaje de WhatsApp # 172
+INFO - 2021-01-23 13:53:39.008614 - Datos enviados al servicio custom_uid=prue3-172&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 13:53:39.747840 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 13:53:39.750134 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-172"}
+INFO - 2021-01-23 13:54:07.308350 - INSERT INTO SmsWhatsapp (telefono, mensaje, fecha, Sucursal, fechaEnvio) values ('7971109731', 'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui !n/bit.ly/39b747W!n _-Aproveche en Enero Hemoglobina Glucosilada $168_ !n*--Mensaje generado de manera automática favor de no contestar.* !n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', '2021-01-23 08:55:25.890000', 1, '2021-01-23 13:54:06')
+ERROR - 2021-01-23 13:54:09.500246 - Error Traceback (most recent call last):
+  File "/home/pi/gubiaSms/DAO.py", line 93, in agregar
+    cursor.execute(query)
+  File "src/pymssql.pyx", line 468, in pymssql.Cursor.execute
+OperationalError: (8152, 'String or binary data would be truncated.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+ agregando archivo de la tabla SmsWhatsapp 
+ERROR - 2021-01-23 13:54:12.291634 - Ocurrio un error Error Traceback (most recent call last):
+  File "/home/pi/gubiaSms/DAO.py", line 93, in agregar
+    cursor.execute(query)
+  File "src/pymssql.pyx", line 468, in pymssql.Cursor.execute
+OperationalError: (8152, 'String or binary data would be truncated.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+ agregando archivo de la tabla SmsWhatsapp 
+INFO - 2021-01-23 14:07:13.022526 - People Google iniciado
+INFO - 2021-01-23 14:07:14.037443 - Base de Datos conectada
+INFO - 2021-01-23 14:07:14.039098 - WhatsApp iniciado
+INFO - 2021-01-23 14:07:14.040343 - Iniciado SMSGUBIA 2
+INFO - 2021-01-23 14:07:14.041977 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-01-23 14:07:14.041496&chat_id=-429562103
+INFO - 2021-01-23 14:07:14.744957 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-01-23 14:07:15.133462 - Periodo de mantenimiento -> 0
+INFO - 2021-01-23 14:07:21.240376 - Enviado mensajes de prueba
+INFO - 2021-01-23 14:07:21.240981 - Enviado mensaje a 5554374058
+INFO - 2021-01-23 14:07:21.242086 - <googleapiclient.discovery.Resource object at 0xb1198970>
+INFO - 2021-01-23 14:07:22.457594 - Contacto Agregado 5554374058
+INFO - 2021-01-23 14:07:22.462266 - Espera de envio de WhatsApp de 10
+INFO - 2021-01-23 14:07:32.466046 - Telefono recibido 5554374058
+INFO - 2021-01-23 14:07:32.467348 - Se enviara mensaje a 5215554374058
+INFO - 2021-01-23 14:07:32.470074 - Mensaje de WhatsApp # 173
+INFO - 2021-01-23 14:07:32.473123 - Datos enviados al servicio custom_uid=prue3-173&to=5215554374058&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+14%3A07%3A32.465393+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 14:07:33.273056 - Mensaje a numero 5215554374058 enviado
+INFO - 2021-01-23 14:07:33.275098 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-173"}
+INFO - 2021-01-23 14:07:33.277576 - Enviado mensaje a 7971109731
+INFO - 2021-01-23 14:07:33.279421 - <googleapiclient.discovery.Resource object at 0xb1198970>
+INFO - 2021-01-23 14:07:34.367232 - Contacto Agregado 7971109731
+INFO - 2021-01-23 14:07:34.369306 - Espera de envio de WhatsApp de 6
+INFO - 2021-01-23 14:07:40.375658 - Telefono recibido 7971109731
+INFO - 2021-01-23 14:07:40.376829 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 14:07:40.377887 - Mensaje de WhatsApp # 174
+INFO - 2021-01-23 14:07:40.379529 - Datos enviados al servicio custom_uid=prue3-174&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+14%3A07%3A40.375364+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 14:07:41.120254 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 14:07:41.120982 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-174"}
+INFO - 2021-01-23 14:07:41.121685 - Enviado mensaje a 2223178965
+INFO - 2021-01-23 14:07:41.122252 - <googleapiclient.discovery.Resource object at 0xb1198970>
+INFO - 2021-01-23 14:07:42.142151 - Contacto Agregado 2223178965
+INFO - 2021-01-23 14:07:42.144131 - Espera de envio de WhatsApp de 8
+INFO - 2021-01-23 14:07:50.151806 - Telefono recibido 2223178965
+INFO - 2021-01-23 14:07:50.153208 - Se enviara mensaje a 5212223178965
+INFO - 2021-01-23 14:07:50.157254 - Mensaje de WhatsApp # 175
+INFO - 2021-01-23 14:07:50.160024 - Datos enviados al servicio custom_uid=prue3-175&to=5212223178965&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Hola+buen+dia+este+es+un+mensaje+de+prueba+del+servicio+de+mensajes+de+texto+%0A+%2Ahttp%3A%2F%2Fwww.goo.gl%2Fymh2Ab+enviado+el+2021-01-23+14%3A07%3A50.151493+%0A+--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.+%0A+--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos.
+INFO - 2021-01-23 14:07:50.936142 - Mensaje a numero 5212223178965 enviado
+INFO - 2021-01-23 14:07:50.937357 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-175"}
+INFO - 2021-01-23 14:07:50.938906 - Select TOP(5) * from tbSmsSalidaNueva order by id
+INFO - 2021-01-23 14:07:51.038955 - Mensajes a enviar por WhatsApp -> 5
+INFO - 2021-01-23 14:08:09.480616 - Enviando mensaje [2, datetime.datetime(2021, 1, 23, 8, 55, 25, 890000), u'7971109731', u'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui \n/bit.ly/39b747W\n _-Aproveche en Enero Hemoglobina Glucosilada $168_ \n*--Mensaje generado de manera autom\xe1tica favor de no contestar.* \n_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', u'Saludos PRUEBA tus resultados de Gubia estan listos para ser entregados en cualquiera de nuestras sucursales -Aproveche en Enero Hemoglobina Glucosilada $168', 1]
+INFO - 2021-01-23 14:08:09.481486 - <googleapiclient.discovery.Resource object at 0xb1198970>
+INFO - 2021-01-23 14:08:10.386096 - Contacto Agregado 7971109731
+INFO - 2021-01-23 14:08:10.387669 - Espera de envio de WhatsApp de 6
+INFO - 2021-01-23 14:08:16.395967 - Telefono recibido 7971109731
+INFO - 2021-01-23 14:08:16.397421 - Se enviara mensaje a 5217971109731
+INFO - 2021-01-23 14:08:16.399050 - Mensaje de WhatsApp # 176
+INFO - 2021-01-23 14:08:16.401231 - Datos enviados al servicio custom_uid=prue3-176&to=5217971109731&token=c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50&uid=527971416893&text=Que+tal+PRUEBA+tus+resultados+de+Gubia+estan+listos+descargalos+aqui+%0A%2Fbit.ly%2F39b747W%0A+_-Aproveche+en+Enero+Hemoglobina+Glucosilada+%24168_+%0A%2A--Mensaje+generado+de+manera+autom%C3%A1tica+favor+de+no+contestar.%2A+%0A_--Si+no+puede+acceder+a+sus+resultados+agregue+este+numero+a+sus+contactos._
+INFO - 2021-01-23 14:08:17.175304 - Mensaje a numero 5217971109731 enviado
+INFO - 2021-01-23 14:08:17.177100 - Resultado del envio de WhatsApp {"success":true,"custom_uid":"prue3-176"}
+INFO - 2021-01-23 14:08:40.419788 - INSERT INTO SmsWhatsapp (telefono, mensaje, fecha, Sucursal, fechaEnvio) values ('7971109731', 'Que tal PRUEBA tus resultados de Gubia estan listos descargalos aqui 
+/bit.ly/39b747W
+ _-Aproveche en Enero Hemoglobina Glucosilada $168_ 
+*--Mensaje generado de manera automática favor de no contestar.* 
+_--Si no puede acceder a sus resultados agregue este numero a sus contactos._', '2021-01-23 08:55:25.890000', 1, '2021-01-23 14:08:39')
+INFO - 2021-01-23 14:08:41.671254 - registro agregado a tabla SmsWhatsapp

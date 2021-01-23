@@ -98,6 +98,15 @@ class DAO():
             error = traceback.format_exc()
             logger.logError("Error {} agregando archivo de la tabla {} ".format(error, tabla))
             raise ValueError("Error {} agregando archivo de la tabla {} ".format(error, tabla))  
+    
+    def eliminarEspeciales(self, texto):
+        texto = texto.replace("\n","!n")
+        return texto
+
+    def force_text(self, text):
+        if (isinstance(text, unicode)):
+            return text.encode("utf-8")
+        return str(text)
 
     def actualizar(self, query, tabla):
         global logger
@@ -132,16 +141,16 @@ class DAO():
     def agregarWhatsCorrecto(self, mensaje):
         global tablaWhatsAppCorrecto
         global logger
-        
-        query = "INSERT INTO {} (telefono, mensaje, fecha, Sucursal, fechaEnvio) values ('{}', '{}', '{}', {}, '{}')".format(tablaWhatsAppCorrecto, mensaje[2], mensaje[3],mensaje[1],mensaje[5],str(datetime.now())[:19] ) 
+        formateado = self.force_text(mensaje[3])
+        query = "INSERT INTO {} (telefono, mensaje, fecha, Sucursal, fechaEnvio) values ('{}', '{}', '{}', {}, '{}')".format(tablaWhatsAppCorrecto, mensaje[2], formateado,mensaje[1],mensaje[5],str(datetime.now())[:19] ) 
         logger.info(query)
         return self.agregar(query, tablaWhatsAppCorrecto)
     
     def agregarWhatsCorrectoNoEnviado(self, mensaje):
         global tablaWhatsAppCorrecto
         global logger
-        
-        query = "INSERT INTO {} (telefono, mensaje, fecha, Sucursal, fechaEnvio) values ('{}', '{}', '{}', {}, '{}')".format(tablaWhatsAppCorrecto, mensaje[2], mensaje[5],mensaje[1],mensaje[6],str(datetime.now())[:19] ) 
+        formateado = self.force_text(mensaje[5])
+        query = "INSERT INTO {} (telefono, mensaje, fecha, Sucursal, fechaEnvio) values ('{}', '{}', '{}', {}, '{}')".format(tablaWhatsAppCorrecto, mensaje[2], formateado,mensaje[1],mensaje[6],str(datetime.now())[:19] ) 
         logger.info(query)
         return self.agregar(query, tablaWhatsAppCorrecto)
     
@@ -149,16 +158,16 @@ class DAO():
     def agregarMensajeNoEnviado(self, mensaje):
         global tablaNoEnviados
         global logger
-
-        query = "INSERT INTO {} (telefono, mensaje, mensajeSms, fecha, Sucursal, intento, fechaIntento ) values ('{}', '{}', '{}', '{}', {}, 1, '{}')".format(tablaNoEnviados, mensaje[2], mensaje[3],  mensaje[4],str(mensaje[1])[:19],mensaje[5], str(datetime.now())[:19] ) 
+        formateado = self.force_text(mensaje[3])
+        query = "INSERT INTO {} (telefono, mensaje, mensajeSms, fecha, Sucursal, intento, fechaIntento ) values ('{}', '{}', '{}', '{}', {}, 1, '{}')".format(tablaNoEnviados, mensaje[2], formateado,  mensaje[4],str(mensaje[1])[:19],mensaje[5], str(datetime.now())[:19] ) 
         logger.info(query)
         return self.agregar(query, tablaNoEnviados)
 
     def agregarMensajeError(self, mensaje):
         global tablaErrores
         global logger
-
-        query = "INSERT INTO {} (telefono, mensaje, mensajeSms, fecha, Sucursal, fechaIntento ) values ('{}', '{}', '{}', '{}', {}, '{}')".format(tablaErrores, mensaje[2], mensaje[3],  mensaje[4],mensaje[1],str(mensaje[5])[:19], str(datetime.now())[:19]) 
+        formateado = self.force_text(mensaje[3])
+        query = "INSERT INTO {} (telefono, mensaje, mensajeSms, fecha, Sucursal, fechaIntento ) values ('{}', '{}', '{}', '{}', {}, '{}')".format(tablaErrores, mensaje[2], formateado,  mensaje[4],mensaje[1],str(mensaje[5])[:19], str(datetime.now())[:19]) 
         logger.info(query)
         return self.agregar(query, tablaNoEnviados)
 
