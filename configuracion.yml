@@ -2,10 +2,11 @@
 
 mensajePrueba: Hola buen dia este es un mensaje de prueba del servicio de mensajes de texto !n *http://www.goo.gl/ymh2Ab enviado el {} !n --Mensaje generado de manera automática favor de no contestar. !n --Si no puede acceder a sus resultados agregue este numero a sus contactos.
 telefonosPrueba : ['5554374058', '7971109731', '2223178965']
+horaPrueba: 8
 esperaWhatsMenor: 20
 esperaWhatsMayor: 45
 esperaMantenimiento: 900  
-erroresParaMantenimiento: 2
+erroresParaMantenimiento: 3
 logger:
   archivo: /home/pi/gubiaSms/log.log
 gubiaBoot:
