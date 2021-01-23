@@ -3,8 +3,8 @@
 mensajePrueba: Hola buen dia este es un mensaje de prueba del servicio de mensajes de texto !n *http://www.goo.gl/ymh2Ab enviado el {} !n --Mensaje generado de manera automática favor de no contestar. !n --Si no puede acceder a sus resultados agregue este numero a sus contactos.
 telefonosPrueba : ['5554374058', '7971109731', '2223178965']
 horaPrueba: 8
-esperaWhatsMenor: 20
-esperaWhatsMayor: 45
+esperaWhatsMenor: 17
+esperaWhatsMayor: 32
 esperaMantenimiento: 900  
 erroresParaMantenimiento: 3
 logger:
@@ -18,7 +18,7 @@ baseDatos:
   username: DB_9AE2E9_bdGubia_admin
   password: gubia123...
   database: DB_9AE2E9_bdGubia
-  tablaEntrada: tbSmsSalidaTest
+  tablaEntrada: tbSmsSalidaNueva
   whatsAppSalida: SmsWhatsapp 
   tablaNoEnviados: SmsMensajesNoEnviados
   tablaMantenimiento: SmsGubiaMantenimiento
@@ -31,6 +31,6 @@ peopleApi:
 whatsApp:
   token: c5ff71bb46d0d7556c0f7da497fdbabf5d7295bfdcd50
   archivoContador: whats.cont
-  diferenciador: prue-
+  diferenciador: prod-
   uid: "527971416893"
 
