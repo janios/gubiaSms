@@ -4,6 +4,7 @@
 import pymssql
 import traceback
 from datetime import datetime
+import timeout_decorator
 
 host = ""
 username = ""
@@ -50,6 +51,7 @@ class DAO():
             logger.logError("Error en la base de datos {}".format(error))
             raise ValueError("Error en la base de datos {}".format(error))
   
+    @timeout_decorator.timeout(25)
     def obtener(self, query, tabla):
         global logger
         global conn
@@ -69,6 +71,7 @@ class DAO():
             logger.logError("Error en la base de datos {}".format(error))
             raise ValueError("Error en la base de datos {}".format(error)) 
 
+    @timeout_decorator.timeout(25)
     def eliminar(self, tabla, id):
         global conn
         global logger
@@ -85,6 +88,7 @@ class DAO():
             logger.logError("Error {} en la eliminacion de la tabla {} con el id {}".format(error, tabla, id))
             raise ValueError("Error {} en la eliminacion de la tabla {} con el id {}".format(error, tabla, id))
     
+    @timeout_decorator.timeout(25)
     def agregar(self, query, tabla):
         global logger
         global conn
@@ -99,6 +103,7 @@ class DAO():
             logger.logError("Error {} agregando archivo de la tabla {} ".format(error, tabla))
             raise ValueError("Error {} agregando archivo de la tabla {} ".format(error, tabla))  
     
+    @timeout_decorator.timeout(25)
     def eliminarSaltoDeLinea(self, texto):
         texto = texto.replace("\n","!n")
         return texto
@@ -108,6 +113,7 @@ class DAO():
             return text.encode("utf-8")
         return str(text)
 
+    @timeout_decorator.timeout(25)
     def actualizar(self, query, tabla):
         global logger
         global conn
@@ -138,6 +144,7 @@ class DAO():
         global tablaNoEnviados
         return self.eliminar(tablaNoEnviados, mensajes[0]) 
    
+    @timeout_decorator.timeout(25)
     def agregarWhatsCorrecto(self, mensaje):
         global tablaWhatsAppCorrecto
         global logger
@@ -147,6 +154,7 @@ class DAO():
         logger.info(query)
         return self.agregar(query, tablaWhatsAppCorrecto)
     
+    @timeout_decorator.timeout(25)
     def agregarWhatsCorrectoNoEnviado(self, mensaje):
         global tablaWhatsAppCorrecto
         global logger
@@ -157,6 +165,7 @@ class DAO():
         return self.agregar(query, tablaWhatsAppCorrecto)
     
 
+    @timeout_decorator.timeout(25)
     def agregarMensajeNoEnviado(self, mensaje):
         global tablaNoEnviados
         global logger
@@ -166,6 +175,7 @@ class DAO():
         logger.info(query)
         return self.agregar(query, tablaNoEnviados)
 
+    @timeout_decorator.timeout(25)
     def agregarMensajeError(self, mensaje):
         global tablaErrores
         global logger
@@ -175,22 +185,26 @@ class DAO():
         logger.info(query)
         return self.agregar(query, tablaNoEnviados)
 
+    @timeout_decorator.timeout(25)
     def actualizarIntento(self, mensaje):
         global tablaNoEnviados
         query = "UPDATE {} SET intento = {}, fechaIntento = '{}' WHERE id = {}".format(tablaNoEnviados, mensaje[4] + 1, str(datetime.now())[:19] ,mensaje[0])
         return self.actualizar(query, tablaNoEnviados)
 
+    @timeout_decorator.timeout(25)
     def obtenerMensajes(self):
         global tablaEntrada
         query = "Select TOP("+str(numeroRegistros)+") * from " + tablaEntrada + " order by id"
         return self.obtener(query, tablaEntrada)
 
+    @timeout_decorator.timeout(25)
     def obtenerMensajesNoEnviados(self):
         global tablaNoEnviados
         global numeroReintentos
         query = "Select TOP({}) * from {} where intento <={} order by id".format(str(numeroRegistros), tablaNoEnviados, numeroReintentos )
         return self.obtener(query, tablaNoEnviados)
     
+    @timeout_decorator.timeout(25)
     def obtenerMantenimiento(self):
         global tablaMantenimiento
         query = "Select TOP(1) * from {} order by id".format(tablaMantenimiento)
@@ -198,6 +212,7 @@ class DAO():
         logger.info("Periodo de mantenimiento -> {}".format(mantenimiento))
         return mantenimiento
     
+    @timeout_decorator.timeout(25)
     def ponerMantenimiento(self):
         global tablaMantenimiento
         query = "update {} SET Mantenimiento = 1 WHERE id = 1".format(tablaMantenimiento)
