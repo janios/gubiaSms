@@ -44,7 +44,7 @@ class DAO():
         numeroRegistros = config['numeroRegistros']
         numeroReintentos = config['numeroReintentos']
         try:
-            conn = pymssql.connect(host, username, password, database)
+            conn = pymssql.connect(server=host, user=username,password= password, database= database, read_timeout = 30)
             logger.info("Base de Datos conectada")
         except:
             error = traceback.format_exc()
