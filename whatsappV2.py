@@ -60,7 +60,9 @@ class Whatsapp():
                 return "Eror numero incorrecto"
 
             claveUnica = diferenciador+ str(self.escribirincrementar())
-            data = urllib.urlencode({"token":token,"uid":uid,"to":numero,"custom_uid":claveUnica,"text":self.force_text(texto)}) 
+            mensaje = self.force_text(texto)
+            mensaje = mensaje.replace("!n", "\n")
+            data = urllib.urlencode({"token":token,"uid":uid,"to":numero,"custom_uid":claveUnica,"text":mensaje}) 
             logger.info("Datos enviados al servicio {}".format(data))
             req = urllib2.Request('https://www.waboxapp.com/api/send/chat', data) 
             response = urllib2.urlopen(req) 

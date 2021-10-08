@@ -51,6 +51,7 @@ logger = Logger(config['logger'])
 maximoErrores = config['erroresParaMantenimiento']
 mensajePrueba = config['mensajePrueba']
 telefonosPrueba = config['telefonosPrueba']
+horaPrueba = config['horaPrueba']
 
 try:
 
@@ -58,6 +59,7 @@ try:
     contactos = Contactos(config['peopleApi'], logger)
     DAO = DAO(config['baseDatos'], logger)
     whatsApp = Whatsapp(config['whatsApp'], logger)
+     
 
 
     logger.info("Iniciado SMSGUBIA 2")
@@ -76,8 +78,9 @@ try:
                 continue
 
             if fechaPrueba != str(datetime.now())[:10]:
-                enviarPrueba()
-                fechaPrueba = str(datetime.now())[:10]    
+                if int(str(datetime.now())[11:13])>=horaPrueba:
+                    enviarPrueba()
+                    fechaPrueba = str(datetime.now())[:10]    
 
 
             #obtiene mensajes a enviar
