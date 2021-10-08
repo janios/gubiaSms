@@ -26200,3 +26200,27 @@ INFO - 2020-12-29 23:16:38.989916 - Registro 13 eliminado
 INFO - 2020-12-29 23:16:47.006923 - Select TOP(1) * from SmsGubiaMantenimiento order by id
 INFO - 2020-12-29 23:16:47.106141 - Periodo de mantenimiento -> 0
 INFO - 2020-12-29 23:16:54.462540 - Select TOP(5) * from tbSmsSalidaTest order by id
+INFO - 2021-10-08 15:34:25.036630 - People Google iniciado
+INFO - 2021-10-08 15:34:26.733241 - Base de Datos conectada
+INFO - 2021-10-08 15:34:26.735381 - WhatsApp iniciado
+INFO - 2021-10-08 15:34:26.736471 - Iniciado SMSGUBIA 2
+INFO - 2021-10-08 15:34:26.737579 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-10-08 15:34:26.737361&chat_id=-429562103
+INFO - 2021-10-08 15:34:29.162536 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-10-08 15:34:29.276411 - Periodo de mantenimiento -> 0
+INFO - 2021-10-08 15:34:29.277393 - Enviado mensajes de prueba
+INFO - 2021-10-08 15:34:29.277914 - Enviado mensaje a 5554374058
+INFO - 2021-10-08 15:34:29.278512 - <googleapiclient.discovery.Resource object at 0x74ea64b0>
+INFO - 2021-10-08 15:34:31.269167 - Contacto Agregado 5554374058
+INFO - 2021-10-08 15:34:31.270112 - Espera de envio de WhatsApp de 30
+INFO - 2021-10-08 15:42:19.390016 - People Google iniciado
+INFO - 2021-10-08 15:42:20.940623 - Base de Datos conectada
+INFO - 2021-10-08 15:42:20.941927 - WhatsApp iniciado
+INFO - 2021-10-08 15:42:20.942823 - Iniciado SMSGUBIA 2
+INFO - 2021-10-08 15:42:20.943919 - Mensaje enviado a https://api.telegram.org/bot883742257:AAHZTho53C3Z5W2fR4kh727c1agxC2voxBQ/sendMessage?text=Iniciando SMS GUBIA 2 en 2021-10-08 15:42:20.943677&chat_id=-429562103
+INFO - 2021-10-08 15:42:22.260147 - Select TOP(1) * from SmsGubiaMantenimiento order by id
+INFO - 2021-10-08 15:42:22.367429 - Periodo de mantenimiento -> 0
+INFO - 2021-10-08 15:42:22.368574 - Enviado mensajes de prueba
+INFO - 2021-10-08 15:42:22.369238 - Enviado mensaje a 5554374058
+INFO - 2021-10-08 15:42:22.369994 - <googleapiclient.discovery.Resource object at 0x74e87c50>
+INFO - 2021-10-08 15:42:24.174653 - Contacto Agregado 5554374058
+INFO - 2021-10-08 15:42:24.175726 - Espera de envio de WhatsApp de 28
